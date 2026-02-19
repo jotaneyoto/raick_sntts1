@@ -1,0 +1,65 @@
+.draw-titles-single{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.draw-titles-single .title-award{
+    display: flex;
+    align-items: center;
+}
+
+.draw-titles-single .title-award h4{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.draw-titles-single .title-award p{
+    padding-top: 6px;
+    font-size: .9em;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.draw-titles-single .draw-titles-content{
+    margin-top: 5px;
+}
+
+.draw-titles-single .draw-titles-content .title-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+.draw-titles-single .draw-titles-content .title-content .number-title{
+    border-radius: 7px;
+    padding: 3px 7px;
+    font-size: .8em;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+
+.draw-titles-single .draw-titles-content .title-content .award-title{
+    font-size: .85em;
+    font-weight: 500;
+}
+
+.draw-titles-single .draw-titles-content .title-content .buyer{
+    font-size: .85em;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.draw-titles-single .load-more-titles-awards{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: .85em;
+    font-weight: 500;
+}

@@ -1,0 +1,45 @@
+.socials-icons{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 1000;
+    padding-right: 10px;
+}
+
+.socials-icons button{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #fff;
+    outline: none;
+}
+
+.socials-icons span{
+   display: flex;
+   gap: 5px;
+   padding-bottom: 5px;
+}
+
+.socials-icons span .insta-dr{
+    background-color: #F40182;
+}
+
+.socials-icons span .telegram-dr{
+    background-color: #0DCAF0;
+}
+
+.socials-icons span .tiktok-dr{
+    background-color: #050505;
+}
+
+.socials-icons span .support-dr{
+    background-color: #2AB33F;
+}
+
+.socials-icons .group-dr{
+    background-color: #198754;
+    width: 140px;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 0;
+}

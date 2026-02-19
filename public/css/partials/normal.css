@@ -1,0 +1,242 @@
+.normal-single{
+    margin-top: 7px;
+}
+
+.normal-single .normal-title{
+    display: flex;
+    align-items: center;
+}
+
+.normal-single .normal-title h4{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.normal-single .normal-title p{
+    padding-top: 6px;
+    font-size: .9em;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.normal-single .controls-normal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.normal-single .controls-normal .btn-normal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+}
+
+.normal-single .controls-normal .btn-normal span{
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.normal-single .controls-normal .btn-normal .reserv::before{
+    content: 'Reservados';
+}
+
+.normal-single .controls-normal .btn-normal .result-livres{
+    background-color: #585858;
+    color: #fff;
+    font-weight: 500;
+    height: 100%;
+}
+
+.normal-single .controls-normal .btn-normal .result-reservados{
+    background-color: #f0910d;
+    color: #fff;
+    font-weight: 500;
+    height: 100%;
+}
+
+.normal-single .controls-normal .btn-normal .result-pagos{
+    background-color: #198754;
+    font-weight: 500;
+    color: #fff;
+    height: 100%;
+}
+
+.normal-single .select-normal input[type="number"]{
+    width: 100%;
+    border: solid 1px #0000003b;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.normal-single .select-normal .numbers-normal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.normal-single .select-normal .numbers-normal .btn-select{
+    width: 15.95%;
+    background-color: #585858;
+    border-radius: 3px;
+    margin: 2px;
+    cursor: pointer;
+    padding: 7px 0;
+    border: none;
+    outline: none;
+}
+
+.normal-single .select-normal .numbers-normal .btn-select:hover{
+    background-color: #494949;
+}
+
+.normal-single .select-normal .numbers-normal .btn-select p{
+    color: #fff;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.normal-single .modal-normal{
+    width: 100%; 
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.normal-single .modal-normal .modal-normal-content{
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 600px;
+    width: 100%; 
+    height: auto;
+    border-radius: 7px;
+    box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.301);
+    padding: 7px 7px 7px 7px;
+}
+
+.normal-single .modal-normal .modal-normal-content .list-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.normal-single .modal-normal .modal-normal-content .list-numbers span{
+    background-color: #343A40;
+    width: 15.95%;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-size: .9em;
+    font-weight: 300;
+    margin: 0 2px 7px 2px;
+    padding: 7px 0;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .input-quantity-raffle-normal{
+    width: 43.5%;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .input-quantity-raffle-normal input{
+    width: 100%;
+    border: solid 1px #00000036;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: .9em;
+    pointer-events: none;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn{
+    border-radius: 7px;
+    display: flex;
+    width: 55%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn .icon-rn{
+    font-size: 1.85em;
+    color: #fff;
+    padding: 7px ;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn .participate-raffle-normal{
+    text-align: start;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn .participate-raffle-normal h3{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn .participate-raffle-normal p{
+    font-size: .95em;
+    color: #ffffffb4;
+    font-weight: 600;
+    margin-top: -3px;
+}
+
+@media only screen and (max-width: 789px) {
+    .normal-single .controls-normal .btn-normal{
+        width: max-content;
+        font-size: .8em;
+
+    }
+
+    .normal-single .controls-normal .btn-normal .reserv::before{
+        content: 'Reserv';
+    }
+
+    .normal-single .select-normal .numbers-normal .btn-select{
+        width: 18.75%;
+    } 
+    
+    .normal-single .modal-normal .modal-normal-content{
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 600px;
+        width: 95%; 
+        height: auto;
+        background-color: #fff;
+        border-radius: 7px;
+        box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.301);
+        padding: 7px 7px 7px 7px;
+    }
+
+    .normal-single .modal-normal .modal-normal-content .add-to-cart-normal .btn-add-rn .icon-rn{
+        padding: 7px 7px 7px 12px;
+    }
+
+    .normal-single .modal-normal .modal-normal-content .list-numbers span{
+        width: 23.5%;
+    }
+}

@@ -1,0 +1,195 @@
+nav{
+    padding: 10px 0;
+}
+
+nav .container-nav{
+    max-width: 588px;
+    margin: auto;
+}
+
+nav .container-nav .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+nav .container-nav .header-nav i{
+    color: #fff;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+nav .container-nav .header-nav img{
+    max-width: 185px;
+    max-height: 40px;  
+    cursor: pointer;
+}
+
+nav .container-nav .header-nav .support-nav{
+    cursor: pointer;
+    color: #fdffa9;
+    margin-right: 10px;
+}
+
+nav .container-nav .header-nav .support-nav i{
+    font-size: 16px;
+    float: right;
+    color: #ffffff81;
+}
+
+nav .container-nav .header-nav .support-nav p{
+    font-size: .8em;
+    font-weight: 500;
+}
+
+nav .container-nav .popup-nav {
+    width: 101%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    display: none;
+}
+
+nav .container-nav .show{
+    display: block;
+}
+
+nav .container-nav .popup-nav .container-popup-nav{
+    margin: auto;
+    max-width: 588px;
+    height: 100%; 
+}
+
+nav .container-nav .popup-nav .container-popup-nav .header-popup{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 0;
+   box-shadow: 0 10px 30px 1px rgba(0, 0, 0, .06); 
+}
+
+nav .container-nav .popup-nav .container-popup-nav .header-popup img{
+    max-width: 185px;
+    max-height: 40px;  
+}
+
+nav .container-nav .popup-nav .container-popup-nav .header-popup #closePopupButton{
+    color: #fff;
+    font-size: 1.7em;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+nav .container-nav .popup-nav .container-popup-nav .target-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff0e;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .target-user .img-user-nav{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .target-user h4{
+    width: 80%;
+    font-size: .95em;
+    font-weight: 400;
+    color: #fff;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .target-user a i{
+    font-size: 1.4em;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul li{
+    border-bottom: solid 1px #ffffff1f;
+    padding: 1rem;
+    font-size: .9em;
+    font-weight: 300;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul li:first-child{
+    padding-top: 25px;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul li:last-child{
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul a{
+    color: #fff;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul li i{
+    margin-right: 15px;
+    font-size: 1.4em;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav ul li .new{
+    color: #fff;
+    border-radius: 5px;
+    font-size: 11px;
+    background-color: #198754;
+    padding: 2px 5px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav button{
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    width: 100%;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav .container-nav .popup-nav .container-popup-nav .options-nav button:hover{
+    background-color: #0450c2;
+}
+
+@media only screen and (max-width: 789px) {
+    nav{
+        padding: 10px;
+    }
+
+    nav .container-nav .header-nav .support-nav{
+        padding-right: 5px;
+        margin-right: 0;
+    }
+
+    nav .container-nav .popup-nav .container-popup-nav{
+        padding: 0 10px;
+    }
+
+    nav .container-nav .popup-nav .container-popup-nav .target-user .img-user-nav{
+        width: 55px;
+    }
+
+    nav .container-nav .popup-nav .container-popup-nav .target-user h4{
+        width: 73%;
+        padding-left: 10px;
+    }
+}

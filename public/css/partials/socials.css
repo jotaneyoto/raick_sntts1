@@ -1,0 +1,35 @@
+.share-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-share {
+    padding: 3px 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+
+}
+
+.btn-share.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.btn-share.telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
+.btn-share.twitter {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-share.whatsapp {
+    background-color: #25d366;
+    color: white;
+}

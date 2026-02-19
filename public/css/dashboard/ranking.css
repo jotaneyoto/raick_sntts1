@@ -1,0 +1,136 @@
+.dashboard-ranking{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-ranking .ranking-container{
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-ranking .ranking-container .content-ranking{
+    width: 50%;
+}
+
+.dashboard-ranking .ranking-container .header-ranking{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dashboard-ranking .ranking-container .header-ranking h5{
+    font-size: 2em;
+}
+
+.dashboard-ranking .ranking-container .header-ranking h4{
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.dashboard-ranking .ranking-container .header-ranking p{
+    font-size: .9em;
+    color: #fff;
+    font-weight: 400;
+    text-align: start;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid{
+    background-color: #1D1D1D;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid{
+    background-color: #1D1D1D;
+    margin-bottom: 7px;
+    border-radius: 10px;
+
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .client-ranking{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .number-ranking{
+    border-right: 1px solid #3C3C3C;
+    padding-right: 10px;
+    width: 8%;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .number-ranking h4{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .grid-ranking{
+    display: flex;
+    gap: 10px;
+    width: 85%;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .grid-ranking h4{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: start;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .grid-ranking p{
+    color: #ffffffa4;
+    font-size: .8em;
+    font-weight: 400;
+    text-align: start;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .ranking-grid .grid-ranking a{
+    color: #00CDBD;
+    font-size: .9em;
+    font-weight: 500;
+    text-align: start;
+}
+
+.dashboard-ranking .ranking-container .content-ranking .titles-ranking{
+    width: 5%;
+    text-align: right;
+}
+
+
+.dashboard-ranking .ranking-container .content-ranking .titles-ranking p{
+    color: #ffffff;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-ranking{
+        width: 95%;
+        padding: 20px 10px;
+    }
+
+    .dashboard-ranking .ranking-container{
+        display: block;
+    }
+
+    .dashboard-ranking .ranking-container .content-ranking{
+        width: 100%;
+    }
+
+    .dashboard-ranking .ranking-container .content-ranking .ranking-grid .grid-ranking{
+        width: 70%;
+    }
+
+}

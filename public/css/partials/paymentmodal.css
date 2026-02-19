@@ -1,0 +1,310 @@
+.modal-payment {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000071;
+    backdrop-filter: blur(7px);
+    z-index: 10000;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.modal-payment .modal-payment-content {
+    width: 100%;
+    max-width: 600px;
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.212);
+}
+
+.modal-payment .modal-payment-content .header-modal span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.modal-payment .modal-payment-content .header-modal span h3{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.modal-payment .modal-payment-content .header-modal span i{
+    font-size: 2.2em;
+    cursor: pointer;
+}
+
+.modal-payment .modal-payment-content .header-modal .target-quantity{
+    padding: 10px 15px;
+    border: none;
+}
+
+.modal-payment .modal-payment-content .header-modal .target-quantity p{
+    width: 100%;
+    display: flex;
+    font-size: .8em;
+    padding: 7px;
+    border: solid 1px #9eeaf9;
+    border-radius: 7px;
+    background-color: #cff4fc;
+    color: #055160;
+    font-weight: 300;
+}
+
+.modal-payment .modal-payment-content .header-modal .target-quantity p .quantity-selected{
+    border: none;
+    margin-right: -9px;
+}
+
+.modal-payment .modal-payment-content .form-1{
+    padding: 0 15px 15px 15px;
+}
+
+.modal-payment .modal-payment-content .form-1 label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #1f1f1f;
+    display: block;
+    margin: -3px 0 7px 0;
+}
+
+.modal-payment .modal-payment-content .form-1 #phone{
+    width: 100%;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump{
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color: #fff3cd;
+    border: solid 1px #ffe69c;
+    padding: 8px 15px 0 15px;
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span{
+    display: flex;
+    width: 100%;
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #664d03; 
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span input[type="checkbox"]:checked {
+    background-color: #664d03; 
+    border-radius: 50%; 
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span input[type="checkbox"]:checked::after {
+    content: '\2714'; 
+    color: #fff; 
+    font-size: .9em; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span label{
+    display: flex;
+    margin-top: -3px;
+    font-size: .8em;
+    font-weight: 300;
+    color: #664d03;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span label .target-order-bump{
+    padding: 1px 3px;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-bottom: -10px;
+
+}
+
+.modal-payment .modal-payment-content .form-1 .order-bump span label .target-order-bump .quantity-order-bump{
+    padding: 0 3px 0 3px;
+}
+
+.modal-payment .modal-payment-content .form-1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 7px;
+    outline: none;
+}
+
+.modal-payment .modal-payment-content .form-1 button i{
+    padding-left: 7px;
+}
+
+.modal-payment .modal-payment-content .form-1 h4{
+    font-size: .85em;
+    font-weight: 300;
+    color: #0000008c;
+    margin-top: 7px;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+
+.modal-payment .modal-payment-content .form-2{
+    padding: 0 15px 15px 15px;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.modal-payment .modal-payment-content .form-2 p{
+    background-color: #fff3cd;
+    border: solid 1px #ffe69c;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: .8em;
+    color: #664d03;
+    margin: 0 0 9px 0;
+}
+
+.modal-payment .modal-payment-content .form-2 label{
+    font-size: .85em;
+    font-weight: 500;
+    color: #1f1f1f;
+    display: block;
+    margin: 7px 0;
+}
+
+.modal-payment .modal-payment-content .form-2 input{
+    width: 100%;
+    border: solid 1px #0000003b;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.modal-payment .modal-payment-content .form-2 #phone2{
+    pointer-events: none;
+}
+
+.modal-payment .modal-payment-content .form-2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.modal-payment .modal-payment-content .form-2 button i{
+    padding-left: 7px;
+}
+
+.modal-payment .modal-payment-content .form-3{
+    padding: 0 15px 15px 15px;
+}
+
+.modal-payment .modal-payment-content .form-3 .target-user-registered{
+    background-color: #d4edda;
+    color: #155724;
+    font-size: .8em;
+    margin: 0 0 7px 0;
+    padding: 7px 0 7px 20px;
+    border-radius: 7px;
+    border: solid 1px #1557245e;
+    font-weight: 300;
+}
+
+.modal-payment .modal-payment-content .form-3 label{
+    font-size: .9em;
+    font-weight: 500;
+    display: block;
+    margin: -3px 0 7px 0;
+}
+
+.modal-payment .modal-payment-content .form-3 #phone3{
+    width: 100%;
+    border: solid 1px #0000003b;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    pointer-events: none;
+}
+
+.modal-payment .modal-payment-content .form-3 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.modal-payment .modal-payment-content .form-3 button i{
+    padding-left: 7px;
+}
+
+@media only screen and (max-width: 789px) {
+    .modal-payment .modal-payment-content {
+        width: 95%;
+    }
+
+    .modal-payment .modal-payment-content .header-modal .target-quantity p{
+        padding: 7px 0;
+
+    }
+
+    .modal-payment .modal-payment-content .header-modal .target-quantity p{
+        font-size: .7em;
+    }
+
+    .modal-payment .modal-payment-content .form-3 .target-user-registered{
+        font-size: .7em;
+    }
+
+    .modal-payment .modal-payment-content .form-1 button{
+        margin-top: 0;
+    }
+}

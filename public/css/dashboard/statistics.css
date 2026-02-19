@@ -1,0 +1,143 @@
+.dashboard-home .filter-statistic form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dashboard-home .filter-statistic form select{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-home .filter-statistic form button{
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CDBD;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+
+.dashboard-home .table-names-statistics{
+    background-color: #1D1D1D;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7em;
+    font-weight: 500;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-home .table-names-statistics div{
+    width: 20%;
+    text-align: left;
+}
+
+.dashboard-home .statistic-grid{
+    background-color: #282828;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff23;
+    margin-top: -3px;
+    gap: 10px;
+}
+
+.dashboard-home .statistic-grid div{
+    width: 20%;
+    text-align: left;
+}
+
+.dashboard-home .statistic-grid .date-statistic, .statistics-clients, .statistics-orders, .statistics-numbers-sold, .statistics-total{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+}
+
+.dashboard-home .statistic-grid .date-statistic, .statistics-clients, .statistics-orders, .statistics-numbers-sold, .statistics-total, strong{
+    font-weight: 400;
+}
+
+.dashboard-home .export-ecxel-btn i{
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-home .filter-statistic form select{
+        width: 100%;
+    }
+    
+    .dashboard-home .filter-statistic form button{
+        width: 30%;
+    }
+
+    .dashboard-home .table-names-statistics{
+        display: none;
+    }
+    
+    .dashboard-home .statistic-grid{
+        background-color: #1D1D1D;
+        border-radius: 5px 5px 5px 5px;
+        padding: 15px;
+        color: #000000bb;
+        display: block;
+        border-top: none;
+        margin-top: 10px;
+        border: 1px solid #ffffff23;
+    }
+    
+    .dashboard-home .statistic-grid div{
+        width: 100%;
+    }
+
+    .dashboard-home .statistic-grid .date-statistic{
+        font-weight: 500;
+    }
+    
+    .dashboard-home .statistic-grid .statistics-clients, .statistics-orders, .statistics-numbers-sold, .statistics-total{
+        color: #ffffff;
+        font-size: .83em;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .dashboard-home .statistic-grid .date-statistic, .statistics-clients, .statistics-orders, .statistics-numbers-sold, .statistics-total, strong{
+        padding-left: 5px;
+    }
+
+    .dashboard-home .statistic-grid .statistics-clients:before{
+        content: 'Participantes:';
+    }
+
+    .dashboard-home .statistic-grid .statistics-orders:before{
+        content: 'Pedidos:';
+    }
+
+    .dashboard-home .statistic-grid .statistics-numbers-sold:before{
+        content: 'Títulos vendidos:';
+    }
+
+    .dashboard-home .statistic-grid .statistics-total:before{
+        content: 'Total:';
+    }
+}

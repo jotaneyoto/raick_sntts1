@@ -1,0 +1,68 @@
+.dashboard-affiliate-detail{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23;
+    
+}
+
+.dashboard-affiliate-detail .user-detail-container form label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-affiliate-detail .user-detail-container form input{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-affiliate-detail .user-detail-container form select{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-affiliate-detail .user-detail-container form button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CDBD;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-affiliate-detail{
+        width: 95%;
+        padding: 20px 10px;
+        margin: 20px 0;
+        
+    }
+}

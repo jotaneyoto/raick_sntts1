@@ -1,0 +1,105 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const btnDescription = document.querySelector('.btn-Description');
+    const descriptionDiv = document.querySelector('.description');
+    const arrowIcon = btnDescription.querySelector('i');
+
+    btnDescription.addEventListener('click', function() {
+        if (descriptionDiv.style.display === 'none' || descriptionDiv.style.display === '') {
+            descriptionDiv.style.display = 'block';
+            arrowIcon.classList.remove('bi-arrow-down-square-fill');
+            arrowIcon.classList.add('bi-arrow-up-square-fill');
+        } else {
+            descriptionDiv.style.display = 'none';
+            arrowIcon.classList.remove('bi-arrow-up-square-fill');
+            arrowIcon.classList.add('bi-arrow-down-square-fill');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const infoSingle = document.querySelector('.info-single');
+    const imgSingle = document.getElementById('imgSingle');
+    const prevSlide = document.getElementById('prevSlide');
+    const nextSlide = document.getElementById('nextSlide');
+    const imageCounter = document.getElementById('imageCounter');
+
+    const imageRaffle = infoSingle.getAttribute('data-image-raffle');
+    const imageRaffleGalery = infoSingle.getAttribute('data-image-raffle-galery').split(', ');
+
+    let images = [imageRaffle, ...imageRaffleGalery].filter(image => image.trim() !== '');
+    let currentIndex = 0;
+
+    function updateSlide() {
+        imgSingle.style.backgroundImage = `url('https://rifav3.draccu.net/public/images/${images[currentIndex]}')`;
+        imageCounter.textContent = `${currentIndex + 1}/${images.length}`;
+    }
+
+    if (images.length > 1) {
+        prevSlide.addEventListener('click', function() {
+            currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+            updateSlide();
+        });
+
+        nextSlide.addEventListener('click', function() {
+            currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+            updateSlide();
+        });
+    } else {
+        const carouselControls = document.querySelector('.carousel-controls');
+        if (carouselControls) {
+            carouselControls.style.display = 'none';
+        }
+    }
+
+    let isDragging = false;
+    let startX = 0;
+    const threshold = 50; 
+
+    imgSingle.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        startX = e.pageX;
+    });
+
+    imgSingle.addEventListener('mouseup', (e) => {
+        if (!isDragging) return;
+        const endX = e.pageX;
+        const diff = endX - startX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+            } else {
+                currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+            }
+            updateSlide();
+        }
+        isDragging = false;
+    });
+
+    imgSingle.addEventListener('mouseleave', () => {
+        isDragging = false;
+    });
+
+    imgSingle.addEventListener('touchstart', (e) => {
+        isDragging = true;
+        startX = e.touches[0].pageX;
+    });
+
+    imgSingle.addEventListener('touchend', (e) => {
+        if (!isDragging) return;
+        const endX = e.changedTouches[0].pageX;
+        const diff = endX - startX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+            } else {
+                currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+            }
+            updateSlide();
+        }
+        isDragging = false;
+    });
+
+    updateSlide();
+});

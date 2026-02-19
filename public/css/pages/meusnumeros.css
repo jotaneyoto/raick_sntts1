@@ -1,0 +1,159 @@
+.form-search-orders{
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form-search-orders h1{
+    color: #000000b6;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 5px 0 15px 0;
+    border-bottom: solid 1px #00000025;
+    margin-bottom: 10px;
+
+}
+
+.form-search-orders span{
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-search-orders label{
+    font-size: .95em;
+    font-weight: 300;
+    display: block;
+}
+
+.form-search-orders input{
+    width: 90%;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 11px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    background-color: #ffffff;
+}
+
+.form-search-orders button[type="submit"]{
+    display: flex;
+    width: 10%;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.grid-results-order{
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 5px;
+    margin-top: 7px;
+    color: #0000009d;
+
+}
+
+.grid-results-order .info-order{
+    display: flex;
+    align-items: center;
+}
+
+.grid-results-order .info-order .result-order-image{
+    width: 16%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.grid-results-order .info-order .result-order-info{
+    padding-left: 10px;
+}
+
+.grid-results-order .info-order .result-order-info h4{
+    font-size: .9em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.grid-results-order .info-order .result-order-info span{
+    display: flex;
+    align-items: center;
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.grid-results-order .info-order .result-order-info p{
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.grid-results-order .info-order .result-order-info strong{
+    font-size: .75em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.grid-results-order .result-number-order{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.grid-results-order .result-number-order button{
+    border: none;
+    color: #157347;
+    background-color: #30c78156;
+    border-radius: 3px;
+    font-size: .72em;
+    font-weight: 400;
+    cursor: text;
+    outline: none;
+}
+
+.message-empty{
+    font-size: .9em;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+    color: #000000b0;
+}
+
+@media only screen and (max-width: 789px) {
+    .form-search-orders h1{
+        font-size: 1.1em;    
+    }
+
+    .form-search-orders input{
+        width: 85%;
+    }
+    
+    .form-search-orders button[type="submit"]{
+        width: 15%;
+    }
+
+    .grid-results-order .info-order .result-order-image{
+        width: 22%;
+        height: 105px;
+    }
+
+    .grid-results-order .info-order .result-order-info h4{
+        font-size: .85em;
+    }
+
+    .form-search-orders button[type="submit"]{
+        margin-top: -10px;
+    }
+}

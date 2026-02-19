@@ -1,0 +1,45 @@
+.select-animals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-animals .btn-animal{
+    width: 19.2%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #404040;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.select-animals .btn-animal img{
+    width: 100%;
+}
+
+.select-animals .btn-animal .background-animal{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.select-animals .btn-animal .background-animal:hover{
+    background-color: #2b2b2baf;
+}
+
+@media only screen and (max-width: 789px) {
+    .select-animals .btn-animal{
+        width: 24%;
+        margin: 1.5px;
+    }
+
+    .select-animals .btn-animal img{
+        height: 90px;
+    }
+}

@@ -1,0 +1,242 @@
+.dashboard-user-detail{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23;
+    
+}
+
+.dashboard-user-detail .user-detail-container .table-names-user-detail{
+    background-color: #1D1D1D;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7em;
+    font-weight: 500;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-user-detail .user-detail-container .table-names-user-detail div{
+    text-align: left;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list{
+    background-color: #282828;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff23;
+    margin-top: -3px;
+    gap: 10px;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .name-order-detail{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+    width: 12%;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .status-order-detail{
+    border-radius: 30px;
+    font-size: .73em;
+    font-weight: 500;
+    padding: 2px 10px;
+    width: 9%;
+    text-align: center;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .qtd-order-detail{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+    width: 3%;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .numbers-order-detail{
+    width: 43%;
+    max-height: 80px;
+    overflow: auto;
+    text-align: left;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .numbers-order-detail button{
+    border: none;
+    color: #48eea0;
+    background-color: #30c78156;
+    border-radius: 3px;
+    font-size: .75em;
+    font-weight: 400;
+    cursor: text;
+    letter-spacing: .05em;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail{
+    color: #000000bb;
+    font-weight: 400;
+    width: 15%;
+    display: flex;
+    gap: 15px;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail i{
+    color: #ffffff;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail i:hover{
+    color: #00CDBD;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000071;
+    backdrop-filter: blur(7px);
+    z-index: 999999;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order{
+    width: 320px;
+    height: max-content;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.212);
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order h4{
+    font-size: 1.1em;
+    font-weight: 400;
+    border-bottom: 1px solid #ffffff23;
+    padding: 15px;
+    text-align: left;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order p{
+    font-size: .9em;
+    font-weight: 300;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order span{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 15px 15px 0;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order span .cancel-order-no{
+    border: solid 2px #00CDBD;
+    border-radius: 5px;
+    color: #00CDBD;
+    font-size: .95em;
+    font-weight: 300;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order span .cancel-order-yes{
+    border: solid 2px #00CDBD;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .95em;
+    font-weight: 300;
+    background-color: #00CDBD;
+    margin-left: 10px;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-user-detail{
+        padding: 20px 10px;
+        margin: 20px 0;
+        width: 95%;
+        
+    }
+    
+    .dashboard-user-detail .user-detail-container .table-names-user-detail{
+        display: none;
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list{
+        border: none;
+        display: block;
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list .name-order-detail{
+        width: 100%;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list .qtd-order-detail{
+        width: 100%;
+        margin: 15px 0;
+        text-align: left;
+    }
+
+    .dashboard-user-detail .user-detail-container .user-detail-list .qtd-order-detail:before{
+        content: 'Qtd. títulos:';
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list .numbers-order-detail{
+        width: 100%;
+        max-height: 300px;
+        overflow: auto;
+        margin-bottom: 10px;
+    }
+
+    .dashboard-user-detail .user-detail-container .user-detail-list .status-order-detail{
+        width: 35%;
+        margin: 5px 0;
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list .numbers-order-detail button{
+        border: none;
+        color: #3ff19e;
+        background-color: #30c78156;
+        border-radius: 3px;
+        font-size: .75em;
+        font-weight: 400;
+        cursor: text;
+    }
+    
+    .dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail{
+        color: #000000bb;
+        font-weight: 400;
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+
+    .dashboard-user-detail .user-detail-container .user-detail-list .action-order-detail form .modal-delete-order .container-modal-delete-order{
+        width: 95vw;
+    }
+}

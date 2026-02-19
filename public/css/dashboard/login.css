@@ -1,0 +1,80 @@
+.dashboard-container{
+    background-color: #282828;
+}
+
+.dashboard-container .login-admin {
+    max-width: 450px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.dashboard-container .login-admin .login-admin-form {
+    width: 100%;
+    background-color: #1D1D1D;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-container .login-admin .login-admin-form h3{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #ffffff23;
+    margin-bottom: 15px;
+}
+
+.dashboard-container .login-admin .login-admin-form form label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffff;
+    display: block;
+    margin: 7px 0;
+}
+
+.dashboard-container .login-admin .login-admin-form form input{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #ffffff9c;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    background-color: #292929;
+}
+
+.dashboard-container .login-admin .login-admin-form form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 7px;
+    outline: none;
+}
+
+.dashboard-container .login-admin .login-admin-form form button i{
+    padding-left: 5px;
+}
+
+.dashboard-container .login-admin .login-admin-form form h4{
+    font-size: .9em;
+    font-weight: 500;
+    color: #0d6efd;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

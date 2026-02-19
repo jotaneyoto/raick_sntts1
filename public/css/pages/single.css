@@ -1,0 +1,292 @@
+.info-single .img-single{
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-single .background-gradient{
+    background: linear-gradient(254deg, rgba(29, 86, 255, 0.01) 0px, rgb(0, 0, 0));
+    height: 85px;
+    margin-top: -120px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.info-single .background-gradient span {
+    color: #fff;
+    width: max-content;
+    font-size: .7em;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 5px;
+    animation: fadeBlink 2.5s infinite;
+}
+
+@keyframes fadeBlink {
+    0%, 100% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0; 
+    }
+}
+
+.info-single .background-gradient h3{
+    font-size: 1em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 4px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.info-single .background-gradient p{
+    font-size: .75em;
+    color: #ffffff8f;
+    font-weight: 300;
+    margin-top: -3px;
+}
+
+.info-single a button{
+    color: #fff;
+    font-weight: 400;
+    font-size: .9em;
+    border: none;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 0 0 12px 12px;
+    outline: none;
+}
+
+.date-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.date-price .date-single{
+    display: flex;
+    align-items: center;
+
+}
+
+.date-price .date-single p{
+    font-size: .8em;
+    padding-right: 3px;
+
+}
+
+.date-price .date-single span{
+    font-size: .65em;
+    font-weight: 500;
+    padding: 6px 7px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08) !important;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+.date-price .price-single{
+    display: flex;
+    align-items: center;
+}
+
+.date-price .price-single p{
+    font-size: .8em;
+    padding-right: 5px;
+}
+
+.winner-single{
+    display: block;
+}
+
+.container-winner-single{
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.container-winner-single .img-user-winner{
+    width: 15%;
+    height: 80px;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-winner-single .info-winner-single h3{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container-winner-single .info-winner-single h3 i{
+    font-size: .9em;
+    color: #ffffff80;
+    margin-left: 5px;
+}
+
+.container-winner-single .info-winner-single p{
+    font-size: .85em;
+    font-weight: 300;
+    color: #ffffff94;
+}
+
+@keyframes progress-animation {
+    0% { background-position: 50% 0%; }
+    100% { background-position: 100% 0%; }
+}
+
+.progress-bar {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+
+.progress-bar .progress_inner p{
+    font-size: .7em;
+    padding: 3px 0;
+    font-weight: 500;
+    margin-top: -2.5px;
+    text-align: center;
+}
+
+
+.date-price .price-single div{
+    font-size: .8em;
+    font-weight: 500;
+    padding: 6px 7px;
+    color: #fff;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.description-single{
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.description-single .btn-Description{
+    background: transparent;
+    font-size: .8em;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.description-single .btn-Description i{
+    padding-right: 7px;
+}
+
+.description-single .description{
+    max-height: 300px;
+    overflow-y: scroll;
+    font-size: .9em;
+    font-weight: 300;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.winner-single .img-user-winner{
+    width: 15%;
+    height: 80px;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-single {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: rgba(22, 28, 36, 0.418);
+    padding: 5px 10px;
+}
+
+.carousel-controls i {
+    cursor: pointer;
+    color: #b1b4b6;
+    font-size: .85em;
+}
+
+.carousel-controls i:hover {
+    color: #fff;
+}
+
+#imageCounter {
+    color: #fff;
+    font-size: .85em;
+    font-weight: 500;
+}
+
+.img-single {
+    cursor: grab;
+    transition: background-image 0.5s ease;
+}
+
+.img-single:active {
+    cursor: grabbing;
+}
+
+#modal-prizes{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000071;
+    backdrop-filter: blur(7px);
+    z-index: 10000;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#modal-prizes .content-modal-prize{
+    width: 100%;
+    max-width: 550px;
+    height: max-content;
+    border-radius: 7px;
+    box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.212);
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 789px) {
+    .winner-single .img-user-winner{
+        width: 25%;
+    }
+
+    #modal-prizes .content-modal-prize{
+    max-width: 95%;
+}
+}

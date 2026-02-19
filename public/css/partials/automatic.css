@@ -1,0 +1,198 @@
+.select-single{
+    margin-top: 9px;
+}
+
+.select-single p{
+    font-size: .8em;
+    font-weight: 300;
+    color: #555758d2;
+    border-radius: 10px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 3px 0;
+    text-align: center;
+}
+
+.select-single .content-select{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 7px;
+
+}
+
+.select-single .content-select .select{
+    width: 32.5%;
+    margin: 2.4px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08) !important;
+}
+
+.select-single .content-select .select span{
+    display: flex;
+    font-size: 1.9em;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-single .content-select .select h3{
+    margin-left: 2px;
+}
+
+.select-single .content-select .select p{
+    font-size: .85em;
+    color: #000;
+    font-weight: 300;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin-top: -12px;
+}
+
+.select-single .content-select .popular{
+    position: relative;
+    padding: 8px;
+}
+
+.select-single .content-select .popular button{
+    position: absolute;
+    color: #ffffff;
+    width: max-content;
+    font-size: .7em;
+    border-radius: 0 0 5px 5px;
+    padding: 1px 8px;
+    position: absolute;
+    top: 0;
+    border: none;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.select-single .add-to-cart{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.select-single .add-to-cart .quantity-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 7px 0;
+    width: 49%;
+}
+
+.select-single .add-to-cart .quantity-input .bi-dash-circle{
+    font-size: 1.25em;
+    color: #7b7f83bf;
+    cursor: pointer;
+}
+
+.select-single .add-to-cart .quantity-input input[type="number"]{
+    font-size: .95em;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px 0;
+    width: 70%;
+    margin: 0 5px;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    pointer-events: none;
+    background-color: #ffffff;
+}
+
+.select-single .add-to-cart .quantity-input .bi-plus-circle-fill{
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.select-single .add-to-cart .btn-add-to-cart{
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.select-single .add-to-cart .btn-add-to-cart:hover{
+    filter: brightness(1.1);
+}
+
+.select-single .add-to-cart .btn-add-to-cart .bi-arrow-right-square-fill{
+    font-size: 1.9em;
+    color: #fff;
+    padding: 0 7px;
+
+}
+
+.select-single .add-to-cart .btn-add-to-cart span h3{
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: -6px;
+}
+
+.select-single .add-to-cart .btn-add-to-cart span .participate{
+    display: flex;
+    align-items: center;
+    font-size: .95em;
+    color: #ffffffb4;
+    font-weight: 600;
+    margin-top: -2px;
+}
+
+.select-single .add-to-cart .btn-add-to-cart span .participate p{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    color: #ffffffb4;
+    font-weight: 600;
+    background: transparent;
+    padding: 0;
+    padding-left: 5px;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 789px) {
+    .select-single .content-select .select{
+        width: 31.9%;
+        padding: 11px;
+    }
+
+    .select-single .content-select .select span{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .select-single .content-select .select h3{
+        font-size: 1.05em;
+    }
+
+    .select-single .content-select .select p{
+        font-size: .8em;
+        margin-top: -5px;
+    }
+
+    .select-single .add-to-cart .quantity-input{
+        width: 40%;
+    }
+
+    .select-single .add-to-cart .quantity-input input[type="number"]{
+        width: 50%;
+    }
+
+    .select-single .add-to-cart .btn-add-to-cart{
+        width: 58%;
+    }
+
+    .select-single .add-to-cart .btn-add-to-cart span h3{
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,202 @@
+.affiliate-container-dashboard .title-instruction-affiliate{
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin-top: 5px;
+    font-size: .9em;
+}
+
+.affiliate-container-dashboard .affiliate-info{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.affiliate-container-dashboard .affiliate-info .affiliate-section-info{
+    border-radius: 5px;
+    padding: 10px;
+    width: 49%;
+}
+
+.affiliate-container-dashboard .affiliate-info .affiliate-section-info h4{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.affiliate-container-dashboard .affiliate-info .affiliate-section-info p{
+    font-size: .9em;
+    color: #ffffffce;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-section-names{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 10px;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-section-names div{
+    display: flex;
+    justify-content: left;
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales{
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.affiliate-container-dashboard .link-reference-section h4{
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.affiliate-container-dashboard .link-reference-section p{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin-top: 5px;
+    font-size: .9em;
+    color: #000000a4;
+}
+
+.affiliate-container-dashboard .campaign-affiliate{
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: .9em;
+    color: #000000a4;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.affiliate-container-dashboard .campaign-affiliate div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.affiliate-container-dashboard .campaign-affiliate div .picture-campaign{
+    width: 50px;
+    height: 60px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.affiliate-container-dashboard .campaign-affiliate div p{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.affiliate-container-dashboard .campaign-affiliate button{
+    align-items: center;
+    background-color: #198754;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 7px 15px;
+    font-size: .9em;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .campaign-name-affiliate{
+    width: 38%;
+    padding-left: 10px;
+    font-size: .85em;
+    font-weight: 400;
+    color: #000000a4;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .commission-affiliate{
+    width: 20%;
+    font-size: .85em;
+    font-weight: 400;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .date-affiliate{
+    width: 25%;
+    font-size: .85em;
+    font-weight: 400;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .status-affiliate{
+    width: 17%;
+    padding-right: 10px;
+    font-size: .8em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .status-affiliate p{
+    border-radius: 30px;
+    padding: 3px 10px;
+}
+
+@media only screen and (max-width: 789px) {
+
+    
+    .affiliate-container-dashboard .affiliate-info .affiliate-section-info{
+        width: 48.5%;
+    }
+    
+    .affiliate-container-dashboard .affiliate-info .affiliate-section-info h4{
+        font-size: 1.1em;
+    }
+    
+    .affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .campaign-name-affiliate{
+        width: 36%;
+        padding-left: 10px;
+        font-size: .85em;
+        font-weight: 400;
+        color: #000000a4;
+    }
+
+    .affiliate-container-dashboard .affiliate-sales-section .affiliate-section-names .table-name-campaign-affiliate{
+        width: 36% !important;
+    }
+
+    .affiliate-container-dashboard .affiliate-sales-section .affiliate-section-names .table-name-status-affiliate{
+        width: 22% !important;
+    }
+    
+    .affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .status-affiliate{
+        width: 22%;
+        padding-right: 10px;
+        font-size: .8em;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .affiliate-container-dashboard .affiliate-sales-section .affiliate-sales .affiliate-grid-sales .status-affiliate p{
+        font-size: .85em;
+    }
+}

@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://rifav3.draccu.net/public/fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://rifav3.draccu.net/public/fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://rifav3.draccu.net/public/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://rifav3.draccu.net/public/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://rifav3.draccu.net/public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: 'Montserrat', sans-serif; 
+    -webkit-tap-highlight-color: transparent;                                    
+}
+
+::selection {
+    background: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input, textarea, button {
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+} 
+
+.pagination a {
+    margin: 0 3px;
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: .9em;
+}
+
+.pagination a:hover {
+    background-color: #3333331c;
+
+}
+
+.pagination a.active {
+    background-color: #00cdbc00;
+    color: #00CDBD;
+    border: 1px solid #00CDBD;
+    border-radius: 3px;
+}
+
+#togglePassword{
+    font-size: 1.3em;
+    color: #000;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.text-editor::selection {
+    background: #b3d4fc; 
+    color: #000; 
+}
+
+.text-editor::-moz-selection {
+    background: #b3d4fc; 
+    color: #000; 
+}
+
+.title-page-dc{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.title-page-dc h1{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.title-page-dc i{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+@media only screen and (max-width: 789px) {
+    #togglePassword{
+        margin-top: -45px;
+    }
+}

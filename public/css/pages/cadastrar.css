@@ -1,0 +1,123 @@
+.register-form{
+    border-radius: 5px;
+    padding: 10px;
+    color: #00000070;
+    margin-top: 10px;
+}
+
+.register-form form label{
+    font-size: .85em;
+    font-weight: 500;
+    color: #1f1f1f;
+    display: block;
+    margin: 7px 0;
+}
+
+.register-form form input[type="text"]{
+    width: 100%;
+    border: solid 1px #0000003b;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #0000009c;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+
+}
+
+.register-form form input[type="tel"]{
+    width: 100%;
+    border: solid 1px #0000003b;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #0000009c;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+
+}
+
+.register-form form input[type="email"]{
+    width: 100%;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #0000009c;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+
+}
+
+.register-form form input[type="password"]{
+    width: 100%;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+
+}
+
+.register-form form .logradouro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-form form .logradouro span{
+    width: 49%;
+}
+
+.register-form form input[type="file"]{
+    display: none;
+}
+
+.register-form form .section-user-image{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.register-form form .section-user-image .img-user{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.register-form form .section-user-image div .label-img-user{
+    background-color: #6C757D;
+    color: #fff;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.register-form form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 7px;
+    outline: none;
+}
+
+@media only screen and (max-width: 789px) {
+    .register-form form .section-user-image .img-user{
+        width: 65px;
+        height: 65px;
+    }
+}

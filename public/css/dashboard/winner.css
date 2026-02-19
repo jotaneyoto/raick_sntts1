@@ -1,0 +1,380 @@
+.dashboard-winner{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-winner .filter-search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.dashboard-winner .filter-search form{
+    width: 49%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-winner .filter-search form div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard-winner .filter-search form h4{
+    color: #ffffff;
+    font-size: .85em;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+.dashboard-winner .filter-search form select{
+    width: 80%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+
+.dashboard-winner .filter-search form input[type="text"]{
+    width: 50%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-winner .filter-search form button{
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CDBD;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.table-names-winner{
+    background-color: #1D1D1D;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7em;
+    font-weight: 500;
+    border: 1px solid #ffffff23;
+}
+
+.table-names-winner div{
+    text-align: left;
+}
+
+.winner-grid{
+    background-color: #282828;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff23;
+    margin-top: -3px;
+    gap: 10px;
+}
+
+.winner-grid .winner-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 35%;
+}
+
+.winner-grid .winner-name p{
+    color: #ffffff;
+    font-size: .87em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.winner-grid .winner-name h4{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.winner-grid .winner-title{
+    font-size: .83em;
+    font-weight: 400;
+    width: 15%;
+    text-align: left;
+}
+
+.winner-grid .winner-title p{
+    color: #20d37f;
+    background-color: #30c78156;
+    border-radius: 30px;
+    font-size: .73em;
+    font-weight: 500;
+    padding: 2px 10px;
+    width: max-content;
+    letter-spacing: .12em;
+}
+
+.winner-grid .winner-date{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+    width: 15%;
+    text-align: left;
+}
+
+.winner-grid .winner-action{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: right;
+}
+
+.winner-grid .winner-action a{
+    color: #ffffff;
+}
+
+.winner-grid .winner-action a:hover{
+    color: #00CDBD;
+}
+
+.overlay-winner{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000071;
+    backdrop-filter: blur(7px);
+    z-index: 99999;
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+}
+
+.overlay-winner.show {
+    display: flex;
+    opacity: 1;
+}
+
+.overlay-winner .winner-content{
+    width: 360px;
+    height: max-content;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: -1px 10px 17px -11px rgba(0, 0, 0, 0.212);
+    border: 1px solid #ffffff23;
+}
+
+.overlay-winner .winner-content .header-winner{
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.overlay-winner .winner-content .header-winner .title-winner-header{
+    font-size: 1.1em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+    color: #ffffffbb;
+}
+
+.overlay-winner .winner-content .header-winner i{
+    font-size: 1.1em;
+    color: #ffffffbb;
+    cursor: pointer;
+}
+
+.overlay-winner .winner-content .campaign-info{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+}
+
+.overlay-winner .winner-content .campaign-info .img-winner-campaign{
+    border-radius: 5px;
+}
+
+.overlay-winner .winner-content .campaign-info h4{
+    font-size: .9em;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.overlay-winner .winner-content .campaign-info p{
+    color: #ffffffbb;
+    font-size: .83em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.overlay-winner .winner-content .draw-info{
+    display: flex;
+    gap: 15px;
+    background-color: #555555;
+    padding: 15px;
+    align-items: center;
+}
+
+.overlay-winner .winner-content .draw-info .winner-place{
+    color: #ffffff;
+    font-size: 6.5em;
+    margin-top: -35px;
+    margin-bottom: -30px;
+    font-weight: 500;
+}
+
+.overlay-winner .winner-content .draw-info h4{
+    color: #ffffffbb;
+    font-size: .9em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.overlay-winner .winner-content .draw-info span{
+    background: linear-gradient(90deg, #198754, #3bbc80);
+    color: #ffffff;
+    font-size: .83em;
+    display: flex;
+    justify-content: left;
+    width: max-content;
+    padding: 3px 10px;
+    letter-spacing: .15em;
+    border-radius: 5px;
+}
+
+.overlay-winner .winner-content .draw-info p{
+    color: #ffffffbb;
+    font-size: .8em;
+    font-weight: 400;
+    text-align: left;
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-winner{
+        width: 95%;
+        margin: 20px 0;
+        padding: 20px 10px;
+
+    }
+
+    .overlay-winner .winner-content{
+        width: 95%;
+    }
+
+    .dashboard-winner .filter-search form{
+        width: 100%;
+    }
+    
+    .dashboard-winner .filter-search form div{
+        display: block;
+    }
+    
+    
+    .dashboard-winner .filter-search form select{
+        width: 100%;
+        margin-bottom: 10px;
+    }    
+    
+    .dashboard-winner .filter-search form input[type="text"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .dashboard-winner .filter-search form button{
+        width: 100%;
+    }
+    
+    .table-names-winner{
+        display: none;
+    }
+
+    .winner-grid{
+        background-color: #1D1D1D;
+        border-radius: 5px;
+        padding: 15px;
+        color: #fff;
+        display: block;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    .winner-grid .winner-name{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    
+    .winner-grid .winner-name p{
+        margin-bottom: 10px;
+    }
+    
+    .winner-grid .winner-title{
+        font-size: .9em;
+        width: 100%;
+    }
+    
+    .winner-grid .winner-title p{
+        margin-bottom: 10px;
+    }
+    
+    .winner-grid .winner-date{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .winner-grid .winner-action{
+        width: 100%;
+        gap: 10px;
+        justify-content: left;
+    }
+}

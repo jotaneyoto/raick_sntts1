@@ -1,0 +1,143 @@
+.dashboard-gateways{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23;
+}
+
+.dashboard-gateways .content-gateways .gateways-choose-dc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dashboard-gateways .content-gateways .gateways-choose-dc div{
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 0;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dashboard-gateways .content-gateways .gateways-choose-dc div:hover{
+    background-color: #363636;
+}
+
+.dashboard-gateways .content-gateways .gateways-choose-dc div img{
+    height: 30px;
+}
+
+.dashboard-gateways .content-gateways .bi-eye-slash{
+    font-size: 1.3em;
+    color: #ffffff;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dashboard-gateways .content-gateways .bi-eye{
+    font-size: 1.3em;
+    color: #ffffff;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dashboard-gateways .content-gateways form{
+    text-align: left;
+}
+
+.dashboard-gateways .content-gateways form label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffff;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-gateways .content-gateways form input[type="text"], input[type="password"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-gateways .content-gateways form .pix_cert{
+    background-color: #6C757D;
+    color: #fff;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    width: max-content;
+}
+
+.dashboard-gateways button{
+    border: none;
+    border-radius: 5px;
+    background-color: #00CDBD;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 7px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-gateways{
+        padding: 20px 10px;
+        width: 95%;
+        margin: 20px 0;
+    }
+
+    .dashboard-gateways .content-gateways .bi-eye-slash{
+        margin-top: -48px;
+    }
+    
+    .dashboard-gateways .content-gateways .bi-eye{
+
+        margin-top: -48px;
+    }
+    .dashboard-gateways .content-gateways{
+        display: block;
+    }
+    
+    .dashboard-gateways .content-gateways form{
+        width: 100%;
+    }
+
+    .dashboard-gateways .content-gateways form .h4-paggue{
+        padding-top: 20px;
+    }
+
+    .dashboard-gateways .content-gateways .gateways-choose-dc div{
+        width: 100%;
+    }
+}

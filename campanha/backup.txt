@@ -1,0 +1,2401 @@
+<html lang="pt-br"><!-- Mirrored from rifav3.draccu.net/campanha/roletas-premiadas by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Feb 2026 05:58:18 GMT --><!-- Added by HTTrack --><head>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/main.css">
+       
+                <link rel="shortcut icon" href="https://rifav3.draccu.net/public/images/favicon.ico" type="image/x-icon">
+        
+        <title>Draccu - ROLETAS PREMIADAS</title>
+        <meta name="description" content="Filantropia premiável.">
+        <meta name="keywords" content="Campanha, Rifa, Ação entre amigos, Prêmio">
+        <meta name="robots" content="index, follow">
+
+                    <!-- Open Graph Meta Tags -->
+            <meta property="og:title" content="ROLETAS PREMIADAS">
+            <meta property="og:description" content="Sua chance de mudar de vida chegou!">
+            <meta property="og:image" content="https://rifav3.draccu.net/public/images/68a4f9e8b1529-Design sem nome (9).png">
+            <meta property="og:url" content="https://rifav3.draccu.net/campanha/roletas-premiadas">
+            <meta property="og:type" content="website">
+            <meta property="og:site_name" content="Draccu">
+                
+    
+        
+       <script src="../public/js/partials/header.js"></script>
+   
+
+
+<style>
+  /* trava scroll quando modal/overlay abre */
+  body.modal-travado{ overflow:hidden !important; }
+
+  /* some o site quando estiver no PIX/Loading */
+  #pageHome.is-hidden{ display:none !important; }
+
+  /* PIX e LOADING sempre acima de tudo */
+  #ckPix, #ckLoading{
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 2147483647 !important;
+    background: rgba(0,0,0,.75) !important;
+  }
+
+  /* estado inicial controlado no JS */
+  #ckPix{ display:none; overflow:auto !important; }
+  #ckLoading{ display:none; }
+</style>
+
+ </head>
+<body style="background-color: #161c24;" class="">
+<div id="pageHome">
+<nav style="background-color: #1a1a1a;">
+    <div class="container-nav">
+        <div class="header-nav">
+            <a href="https://rifav3.draccu.net/">
+                <img src="../public/images/68a4f68cc89f2-67fe452237d33-xcxcxcx.png" alt="logo">
+            </a>
+            <img src="https://rifav3.draccu.net/public/images/menu.svg" width="30px" class="bi bi-filter-right" id="showPopupButton">
+        </div>
+
+        <div class="popup-nav" style="background-color: #1a1a1a;">
+            <div class="container-popup-nav">
+                <div class="header-popup">
+                <a href="https://rifav3.draccu.net/"><img src="../public/images/68a4f68cc89f2-67fe452237d33-xcxcxcx.png" alt="logo"></a>
+                <i class="bi bi-x-circle" id="closePopupButton"></i>
+                </div>
+                
+                
+                <div class="options-nav">
+                    <ul>
+                        <li><a href="https://rifav3.draccu.net/"><i class="icone bi bi-house"></i>Início</a></li>
+                        <li><a href="https://rifav3.draccu.net/campanhas"><i class="icone bi bi-card-list"></i>Campanhas</a></li>
+                        <li><a href="https://rifav3.draccu.net/comunicados"><i class="icone bi bi-newspaper"></i>Comunicados</a></li>
+                                                <li><a href="https://rifav3.draccu.net/meus-numeros"><i class="icone bi bi-ui-checks"></i>Minha compras</a></li>
+                                                                        <li><a href="https://rifav3.draccu.net/cadastrar"><i class="icone bi bi-box-arrow-in-right"></i>Cadastro</a></li>
+                        <li><a href="https://rifav3.draccu.net/ganhadores"><i class="icone bi bi-trophy"></i>Ganhadores</a></li>
+                                                <a href="https://rifav3.draccu.net/termo-de-uso"></a><li><a href="https://rifav3.draccu.net/termo-de-uso"><i class="icone bi bi-blockquote-right"></i>Termos de uso</a></li>
+                        <li><a href="https://rifav3.draccu.net/contato"><i class="icone bi bi-envelope"></i>Entrar em contato</a></li>
+                    </ul>
+                                        <a href="https://rifav3.draccu.net/login"><button><i class="bi bi-box-arrow-in-right" style="padding-right: 7px; background: transparent;"></i>Entrar</button></a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<script src="../public/js/partials/navbar.js"></script><h5 class="title-head" style="display: none;">ROLETAS PREMIADAS</h5>
+
+
+    <section>
+        <div class="back-range" style="background-color: #1a1a1a;"></div>
+        <div class="container" style="padding: 0; background-color: #1f2832; border: none;">
+            
+            <div class="info-single" data-image-raffle="68a4f9e8b1529-Design sem nome (9).png" data-image-raffle-galery="68a4f9e8b198f-Design sem nome (13).png, 68a4f9e8b1de1-Design sem nome (12).png">
+
+                <div class="carousel-controls">
+                    <i class="bi bi-caret-left-fill slide-control" id="prevSlide"></i>
+                    <span id="imageCounter">1/3</span>
+                    <i class="bi bi-caret-right-fill slide-control" id="nextSlide"></i>
+                </div>
+
+                <div class="img-single" id="imgSingle" style="border: none; background-image: url('https://rifav3.draccu.net/public/images/68a4f9e8b1529-Design sem nome (9).png')"></div>
+                <div class="background-gradient" style="border-left: none; border-right: none;">
+                                        &lt;<span class="badge-adquira" style="background-color: #1a1a1a">
+  Adquira já!
+</span>
+                                        <h3>COROLLA XEI 2020
+
+</h3>
+                    <p>PARTICIPE E CONCORRA!
+</p>
+                </div>
+                
+                <a href="https://rifav3.draccu.net/meus-numeros">
+                    <button style="border: none; border-top: none; background: linear-gradient(90deg, #000, #414141);; border-radius: 0;">
+                        <i class="bi bi-cart-check"></i> Meus títulos
+                    </button>
+
+                </a>
+
+                
+                    
+                                                    
+
+                            <div class="date-price">
+                                                                
+                                
+                                                                <span class="price-single">
+                                    <p style="color: #ffffffde;">Por apenas </p>
+                                    <div style="background-color: #1a1a1a;">
+                                        R$
+                                        <span class="price-value">
+                                            0,03                                        </span>
+                                    </div>
+                                </span>
+                                                            </div>
+
+                            
+                                                                    <div style="padding: 0 10px 40px 10px;">
+                                    
+                                    <div class="prizes">
+                                        <button id="prize-open" style="background-color: #6c757d; color: #fff; display: flex; gap: 7px; width: 100%; border: none; border-radius: 5px; justify-content: center; padding: 5px; font-size: .9em; margin-top: 7px; outline: none;"><i class="bi bi-trophy"></i>Prêmios</button>
+
+                                        <div id="modal-prizes" style="display: none;">
+                                            <div class="content-modal-prize" style="background-color: #ffffff; border: none;">
+
+                                            <div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #c9c9c9ff; display: flex; justify-content: space-between;  align-items: center;">
+                                                <div>
+                                                    <div class="header-prizes" style="display: flex; gap: 10px; align-items: center;">
+                                                        <div>
+                                                            <h3 style="font-size: 2em;">🏆</h3>                                    
+                                                        </div>
+
+                                                        <div>
+                                                            <h4 style="font-size: 1.5em; color: #000000;">Prêmios</h4>
+                                                            <p style="margin-top: -3px; font-size: .9em; font-weight: 300; color: #000000;">Esses são os prêmios da campanha <strong style="font-size: 1.2em; font-weight: 500;">Roletas premiadas</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div>
+                                                    <i class="bi bi-x-lg" style="color: #000; font-size: 1.5em; cursor: pointer;"></i>
+                                                </div>
+                                            </div>
+                        
+
+                                                <div>
+                                                    <div style="display: flex; gap: 10px; align-items: center; padding: 15px 10px;">
+                                                            <h4 style="font-size: 1.9em; color: #1a1a1a;">1º</h4>
+                                                            <p style="color: #1a1a1a;">R$3.000</p>
+                                                        </div><div style="display: flex; gap: 10px; align-items: center; padding: 15px 10px;">
+                                                            <h4 style="font-size: 1.9em; color: #1a1a1a;">2º</h4>
+                                                            <p style="color: #1a1a1a;">Moto0KM</p>
+                                                        </div><div style="display: flex; gap: 10px; align-items: center; padding: 15px 10px;">
+                                                            <h4 style="font-size: 1.9em; color: #1a1a1a;">3º</h4>
+                                                            <p style="color: #1a1a1a;">R$2.000</p>
+                                                        </div><div style="display: flex; gap: 10px; align-items: center; padding: 15px 10px;">
+                                                            <h4 style="font-size: 1.9em; color: #1a1a1a;">4º</h4>
+                                                            <p style="color: #1a1a1a;">R$5.000</p>
+                                                        </div>                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                                    
+
+<style>
+.container-double-chance{
+    background: linear-gradient(90deg, #1a1a1a, #484848);
+}
+
+.progress-bar-inner {
+    height: 40px;
+    width: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        #1a1a1a,
+        #1a1a1a 10px,
+        #313131 10px,
+        #313131 20px
+    );
+    background-size: 195% 140%;
+    animation: progress-animation 3s linear infinite;
+}
+
+.progress-bar-double-chance {
+
+    background-color: #1a1a1a;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const initialDateISO = document.querySelector('.double-chance-date-initial').getAttribute('data-initial').trim();
+    const finalDateISO = document.querySelector('.double-chance-date-final').getAttribute('data-final').trim();
+
+    const initialDate = new Date(initialDateISO);
+    const finalDate = new Date(finalDateISO);
+
+    if (isNaN(initialDate.getTime()) || isNaN(finalDate.getTime())) {
+        console.error("Datas inválidas.");
+        return;
+    }
+
+    const formatDate = (date) => {
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        return `${day}/${month}/${year} ${hours}:${minutes}`;
+    };
+
+    document.querySelector('.double-chance-date-initial').innerText = formatDate(initialDate);
+    document.querySelector('.double-chance-date-final').innerText = formatDate(finalDate);
+
+    const totalTime = finalDate - initialDate;
+
+    const timerElement = document.createElement('p');
+    timerElement.classList.add('timer');
+    document.querySelector('.progress-bar-double-chance').appendChild(timerElement);
+
+    function updateTimer() {
+        const now = new Date();
+        const timeRemaining = finalDate - now; 
+
+        if (timeRemaining <= 0) {
+            document.querySelector('.progress-bar-inner').style.width = '100%';
+            timerElement.innerText = 'PROMOÇÃO FINALIZADA!';
+            return;
+        }
+
+        const secondsRemaining = Math.floor(timeRemaining / 1000);
+        const hours = Math.floor(secondsRemaining / 3600); 
+        const minutes = Math.floor((secondsRemaining % 3600) / 60); 
+        const seconds = secondsRemaining % 60; 
+        const formattedTime = `ENCERRA EM ${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+        const progressWidth = (1 - timeRemaining / totalTime) * 100;
+        document.querySelector('.progress-bar-inner').style.width = `${progressWidth}%`;
+
+        timerElement.innerText = formattedTime;
+    }
+
+    setInterval(updateTimer, 1000);
+});
+</script>
+ <div class="select-single">
+        <p style="color: #ffffff;background-color: ##6c757d; border: none;">Quanto mais títulos, mais chances de ganhar!</p>
+        <div class="content-select">
+            <div class="select select-1" style="border: none; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; pointer-events: auto;">
+                <span>+
+                    <h3>
+                    100                  </h3>
+                </span>
+                <p style="color:#fff;">SELECIONAR</p>
+
+            </div>
+
+<div class="select select-2 popular" style="background-color: rgb(233, 209, 195); border: 2px solid rgb(255, 59, 59); border-radius: 12px; cursor: pointer; pointer-events: auto;">
+
+    <button style="background-color: #ff3030;">Mais popular</button>
+    <span>+
+        <h3>
+        350       </h3>
+    </span>
+    <p>SELECIONAR</p>
+</div>
+
+            <div class="select select-1" style="border: none; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; pointer-events: auto;">
+    
+
+                <span>+
+                    <h3>500</h3>
+                </span>
+                <p style="color:#fff;">SELECIONAR</p>
+
+            </div>
+            <div class="select select-1" style="border: none; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; pointer-events: auto;">
+    
+                <span>+
+                    <h3>1000</h3>
+                </span>
+                <p style="color:#fff;">SELECIONAR</p>
+
+            </div>
+            <div class="select select-1" style="border: none; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; pointer-events: auto;">
+                <span>+
+                    <h3>5000</h3>
+                </span>
+                <p style="color:#fff;">SELECIONAR</p>
+            </div>
+            <div class="select select-1" style="border: none; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; pointer-events: auto;">
+                <span>+
+                    <h3>10000</h3>
+                </span>
+                <p style="color:#fff;">SELECIONAR</p>
+            </div>
+        </div>
+        <div class="add-to-cart">
+            <div style="background-color:#1f2832; border:1px solid rgba(255,255,255,0.15); border-radius:12px;" class="quantity-input">
+
+
+                <i class="bi bi-dash-circle js-qty-minus" style="color:#ffffff; cursor:pointer;"></i>
+
+                <input class="input-quantity" type="number" value="100" style="background-color:#1f2832; border:1px solid #3a4754; color:#ffffff;">
+
+               <i class="bi bi-plus-circle-fill js-qty-plus" style="color:#ffffff; cursor:pointer;"></i>
+
+                <input class="max-value" type="hidden" value="30000">
+            </div>
+        <button type="button" class="btn-add-to-cart" style="background-color: rgb(255, 59, 59); padding: 12px 16px; gap: 10px; display: flex; align-items: center; width: 100%; border: none; border-radius: 12px; opacity: 1;">
+
+  <i class="bi bi-check-circle" style="color:#ffffff; font-size:20px; margin-right:10px;"></i>
+
+  <span>
+    <h3>Quero Participar</h3>
+    <span class="participate" style="color:#ffffff;">R$
+      <p class="price-participate" style="color:#ffffff;">3,00</p>
+    </span>
+  </span>
+
+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="numbersRest" style="color: #664d03; font-weight: 300; font-size: .8em; background-color: #fff3cd; border: solid 1px #ffe69c; border-radius: 7px; box-shadow: none; padding: 7px; margin-top: 7px; display: none;">
+        <p>Restam apenas <span class="rest-numbers"> 0</span> Títulos.</p>
+    </div>
+    
+    <script src="../public/js/partials/automatic.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const totalNumbersAvailable = 490780;
+
+  const inputQuantity = document.querySelector('.input-quantity');
+  const btnAddToCart = document.querySelector('.btn-add-to-cart');
+  const numbersRestDiv = document.querySelector('.numbersRest');
+  const restNumbersSpan = document.querySelector('.rest-numbers');
+
+  function updateAvailability() {
+    const quantity = parseInt(inputQuantity?.value || '0', 10) || 0;
+
+    if (quantity > totalNumbersAvailable) {
+      btnAddToCart.disabled = true;
+      btnAddToCart.style.opacity = '0.5';
+      numbersRestDiv.style.display = 'block';
+      restNumbersSpan.textContent = totalNumbersAvailable;
+    } else {
+      btnAddToCart.disabled = false;
+      btnAddToCart.style.opacity = '1';
+      numbersRestDiv.style.display = 'none';
+    }
+  }
+
+  // atualiza quando muda quantidade
+  if (inputQuantity) {
+    inputQuantity.addEventListener('input', updateAvailability);
+    inputQuantity.addEventListener('change', updateAvailability);
+  }
+
+  // atualiza 1 vez
+  updateAvailability();
+});
+</script>                            
+
+                                                                                                                                                            <div class="description-single" style="background-color:#1f2832; border:none;">
+
+    <button class="btn-Description" style="
+        width:100%;
+        background:transparent;
+        border:none;
+        color:#e5e7eb;
+        font-size:14px;
+        font-weight:600;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:6px;
+        padding:10px 0;
+        cursor:pointer;
+    ">
+        <i class="bi bi-plus-square" style="font-size:14px;"></i>
+        Descrição/Regulamento
+    </button>
+
+    <!-- TÍTULO DAS CAIXAS -->
+    <div style="padding:6px 10px 10px;">
+        <h3 style="
+            margin:0;
+            color:#ffffff;
+            font-size:18px;
+            font-weight:700;
+            display:flex;
+            align-items:center;
+            gap:6px;
+            line-height:1.2;
+        ">
+            🎁 Caixas Surpresas
+            <span style="
+                color:#8b98a5;
+                font-size:12px;
+                font-weight:600;
+            ">combos</span>
+        </h3>
+    </div>
+
+    <div class="description" style="display:none; color:#cbd5e1; padding:0 10px 10px;">
+</div></div>
+<div class="spins-single">
+    <div class="spins-container">
+            <div class="spins-content select-spin-1" style="background: linear-gradient(90deg, #ff3b3b, #f4a58a) !important; opacity:1; pointer-events:auto;">
+
+        <div class="qtd_numbers">
+            <h4><span class="spin-value-1">333<span> Títulos</span></span></h4>
+            <p class="price-spin" style="font-size: .8em;">
+                por 9,99          </p>
+            <p class="p-1">1 chances de contemplação nas Caixas Surpresas</p>
+        </div>
+
+
+            <div class="gift-spins">
+                <div class="spins-gift">
+                    <h4>Recebe 1</h4>
+                    <p style="color: #fff; font-size: .8em;">Caixa</p>
+                </div>
+
+                <h5>🎁</h5>
+
+            </div>
+        </div>
+        
+                <div class="spins-content select-spin-2" style="background: linear-gradient(90deg, #ff3b3b, #f4a58a) !important; opacity:1; pointer-events:auto;">
+
+            <div class="qtd_numbers">
+                <h4><span class="spin-value-2">566</span> Títulos</h4>
+                <p class="price-spin" style="font-size: .8em;">
+                    por 16,98                </p>
+                <p class="p-1">2 chances de contemplação nas Caixas Surpresas</p>
+            </div>
+
+            <div class="gift-spins">
+                <div class="spins-gift">
+                    <h4>Recebe 2</h4>
+                    <p style="color: #fff; font-size: .8em;">Caixa</p>
+                </div>
+
+                <h5>
+                    🎁
+                </h5>
+
+            </div>
+        </div>
+        
+                <div class="spins-content select-spin-3" style="background: linear-gradient(90deg, #ff3b3b, #f4a58a) !important; opacity:1; pointer-events:auto;">
+
+            <div class="qtd_numbers">
+                <h4><span class="spin-value-3">766</span> Títulos</h4>
+                <p class="price-spin" style="font-size: .8em;">
+                    por 22,98                </p>
+                <p class="p-1">3 chances de contemplação nas Caixas Surpresas</p>
+            </div>
+
+            <div class="gift-spins">
+                <div class="spins-gift">
+                    <h4>Recebe 3</h4>
+                    <p style="color: #fff; font-size: .8em;">Caixas</p>
+                </div>
+
+                <h5>🎁</h5>
+
+            </div>
+        </div>
+        
+                <div class="spins-content select-spin-4" style="background: linear-gradient(90deg, #ff3b3b, #f4a58a) !important; opacity:1; pointer-events:auto;">
+
+            <div class="qtd_numbers">
+                <h4><span class="spin-value-4">2000</span> Títulos</h4>
+                <p class="price-spin" style="font-size: .8em;">
+                    por 20,00                </p>
+                <p class="p-1">10 chances de contemplação nas Caixas Surpresas</p>
+            </div>
+
+            <div class="gift-spins">
+                <div class="spins-gift">
+                    <h4>Recebe 10</h4>
+                    <p style="color: #fff; font-size: .8em;">Caixas</p>
+                </div>
+
+                <h5>🎁</h5>
+
+            </div>
+        </div>
+        
+                <div class="spins-content select-spin-5" style="background: linear-gradient(90deg, #ff3b3b, #f4a58a) !important; opacity:1; pointer-events:auto;">
+
+            <div class="qtd_numbers">
+                <h4><span class="spin-value-5">4000</span> Títulos</h4>
+                <p class="price-spin" style="font-size: .8em;">
+                    por 40,00                </p>
+                <p class="p-1">15 chances de contemplação nas Caixas Surpresas</p>
+            </div>
+
+            <div class="gift-spins">
+                <div class="spins-gift">
+                    <h4>Recebe 15</h4>
+                    <p style="color: #fff; font-size: .8em;">Caixas</p>
+                </div>
+
+                <h5>🎁</h5>
+
+            </div>
+        </div>
+        
+                
+    
+    </div>
+</div>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const spins = [
+    { selectSpin: '.select-spin-1', spinValue: '.spin-value-1' },
+    { selectSpin: '.select-spin-2', spinValue: '.spin-value-2' },
+    { selectSpin: '.select-spin-3', spinValue: '.spin-value-3' },
+    { selectSpin: '.select-spin-4', spinValue: '.spin-value-4' },
+    { selectSpin: '.select-spin-5', spinValue: '.spin-value-5' },
+    { selectSpin: '.select-spin-6', spinValue: '.spin-value-6' }
+  ];
+
+  const inputQuantity = document.querySelector('.input-quantity');
+  const priceValue = document.querySelector('.price-value');
+  const priceParticipate = document.querySelector('.price-participate');
+  const modalPayment = document.getElementById('checkoutModal');
+
+  // Esses 3 podem NÃO existir no seu HTML atual → então não pode quebrar
+  const quantitySelected = document.querySelector('.quantity-selected');
+  const quantityElement = document.getElementById('quantity');
+  const totalAmount = document.getElementById('total-amount');
+
+  function formatCurrency(value) {
+    return (value || 0).toFixed(2).replace('.', ',');
+  }
+
+  function getUnitPrice() {
+    const raw = (priceValue?.innerText || '0').trim().replace(',', '.');
+    const unit = parseFloat(raw);
+    return isNaN(unit) ? 0 : unit;
+  }
+
+  spins.forEach(function(spin) {
+    const selectSpin = document.querySelector(spin.selectSpin);
+    const spinValueElement = document.querySelector(spin.spinValue);
+
+    // se não existe (ex: spin-6), só ignora
+    if (!selectSpin || !spinValueElement) return;
+
+    selectSpin.addEventListener('click', function() {
+      const spinValue = parseInt(spinValueElement.innerText, 10) || 0;
+      const unit = getUnitPrice();
+      const totalPrice = spinValue * unit;
+
+      if (inputQuantity) inputQuantity.value = spinValue;
+      if (priceParticipate) priceParticipate.innerText = formatCurrency(totalPrice);
+
+      // Atualiza campos se existirem
+      if (quantitySelected) quantitySelected.innerText = spinValue;
+      if (quantityElement) quantityElement.innerText = spinValue;
+      if (totalAmount) totalAmount.innerText = formatCurrency(totalPrice);
+
+      // abre modal se existir
+      if (modalPayment) modalPayment.style.display = 'flex';
+    });
+  });
+});
+
+// ===== CHECK VALUES (blindado para não quebrar se faltar spin-6) =====
+function checkValues() {
+  const totalNumbersAvailable = 490780;
+
+  function safeFloat(sel) {
+    const el = document.querySelector(sel);
+    if (!el) return null;
+    const v = parseFloat(el.textContent.replace(',', '.'));
+    return isNaN(v) ? null : v;
+  }
+
+  function updateSpin(spinValue, selectSpinClass) {
+    const el = document.querySelector(`.${selectSpinClass}`);
+    if (!el || spinValue === null) return;
+
+    if (spinValue > totalNumbersAvailable) {
+      el.style.opacity = '0.5';
+      el.style.pointerEvents = 'none';
+    } else {
+      el.style.opacity = '1';
+      el.style.pointerEvents = 'auto';
+    }
+  }
+
+  updateSpin(safeFloat('.spin-value-1'), 'select-spin-1');
+  updateSpin(safeFloat('.spin-value-2'), 'select-spin-2');
+  updateSpin(safeFloat('.spin-value-3'), 'select-spin-3');
+  updateSpin(safeFloat('.spin-value-4'), 'select-spin-4');
+  updateSpin(safeFloat('.spin-value-5'), 'select-spin-5');
+  updateSpin(safeFloat('.spin-value-6'), 'select-spin-6');
+}
+
+setInterval(checkValues, 500);
+</script>                                                                                                   
+                                    
+                                    
+
+                                                                                                                                                            <style>
+  /* ===== Caixa Surpresas (print slim) ===== */
+  .cs-box{
+    background:#1f2832;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:12px;
+    padding:10px;
+    color:#fff;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+    max-width: 560px;
+  }
+
+  .cs-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:8px;
+  }
+
+  .cs-title{
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+    font-weight:800;
+    font-size:14px;
+  }
+
+  .cs-title small{
+    color:rgba(255,255,255,.35);
+    font-weight:700;
+    font-size:11px;
+  }
+
+  .cs-badge{
+    background:#10161d;
+    border:1px solid rgba(255,255,255,.12);
+    color:#ff3b3b;
+    font-weight:900;
+    font-size:11px;
+    padding:1px 7px;
+    border-radius:9px;
+    line-height:1.2;
+  }
+
+  .cs-list{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+
+  /* Linha padrão (slim) */
+  .cs-row{
+    background:#161c24;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:10px;
+    padding:6px 10px;             /* <<< mais fino */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    min-height:30px;              /* <<< altura do print */
+  }
+
+  /* Linha ganhador (vermelha) */
+  .cs-row.winner{
+    background:#ff3b3b;
+    border-color: rgba(255,255,255,0);
+  }
+
+  .cs-left{
+    display:flex;
+    align-items:center;
+    min-width:0;
+  }
+
+  /* Pill do prêmio (print slim) */
+  .cs-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.10);
+    padding:2px 8px;             /* <<< mais fino */
+    border-radius:9px;
+    font-weight:900;
+    font-size:11px;              /* <<< menor */
+    line-height:1;
+    white-space:nowrap;
+  }
+
+  /* Winner pill: branco + borda vermelha */
+  .cs-row.winner .cs-pill{
+    background:#ffffff;
+    color:#0b0f14;
+    border:2px solid #ff3b3b;
+  }
+
+  /* Emoji do celular no pill */
+  .cs-phone{
+    font-size:12px;
+    line-height:1;
+  }
+
+  .cs-right{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-weight:900;
+    font-size:11px;
+    white-space:nowrap;
+  }
+
+  .cs-row:not(.winner) .cs-right{
+    color:rgba(255,255,255,.90);
+  }
+
+  .cs-row.winner .cs-right{
+    color:#ffffff;
+  }
+
+  .cs-status{
+    font-weight:900;
+    font-size:11px;
+    color:rgba(255,255,255,.90);
+  }
+
+  .cs-more{
+    margin-top:8px;
+    text-align:center;
+    color:#ff3b3b;
+    font-weight:900;
+    font-size:11px;
+    cursor:pointer;
+    user-select:none;
+  }
+
+  /* Itens escondidos antes do clique */
+  .cs-row.is-hidden{ display:none; }
+</style>
+
+<style>
+/* ===== Caixa Surpresas FINAL ===== */
+.cs-box{
+  background:#1f2832;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;
+  padding:10px;
+  color:#fff;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  max-width:560px;
+  position:relative;
+  z-index:999999;
+}
+
+.cs-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+}
+
+.cs-title{
+  display:flex;
+  gap:8px;
+  font-weight:800;
+  font-size:14px;
+}
+
+.cs-title small{
+  color:rgba(255,255,255,.35);
+  font-size:11px;
+}
+
+.cs-badge{
+  background:#10161d;
+  border:1px solid rgba(255,255,255,.12);
+  color:#ff3b3b;
+  font-weight:900;
+  font-size:11px;
+  padding:2px 7px;
+  border-radius:9px;
+}
+
+.cs-list{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+/* Linha padrão */
+.cs-row{
+  background:#161c24;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:10px;
+  padding:6px 10px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  min-height:30px;
+}
+
+/* Linha vermelha (ganhador) */
+.cs-row.winner{
+  background:#ff3b3b;
+  border:none;
+}
+
+/* Pill do celular (normal = cinza com TEXTO BRANCO) */
+.cs-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:#919eab;          /* cinza do print */
+  padding:2px 8px;
+  border-radius:9px;
+  font-weight:900;
+  font-size:11px;
+  color:#ffffff;               /* <<< branco no cinza */
+}
+
+/* Winner pill branco com TEXTO PRETO */
+.cs-row.winner .cs-pill{
+  background:#ffffff;
+  border:2px solid #ff3b3b;
+  color:#0b0f14;               /* <<< preto no branco */
+}
+
+.cs-phone{ font-size:12px; }
+
+/* Lado direito */
+.cs-right{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-weight:900;
+  font-size:11px;
+  color:#ffffff;
+}
+
+.cs-status{ color:rgba(255,255,255,.9); }
+
+/* Botão mostrar mais */
+.cs-more-btn{
+  margin-top:8px;
+  width:100%;
+  background:transparent;
+  border:none;
+  color:#ff3b3b;
+  font-weight:900;
+  font-size:11px;
+  cursor:pointer;
+  position:relative;
+  z-index:999999;
+  pointer-events:auto;
+  padding:6px 0;
+}
+
+.cs-row.is-hidden{ display:none; }
+</style>
+
+
+<div class="cs-box" id="csBox">
+  <div class="cs-header">
+    <div class="cs-title">
+      <span>🎁</span>
+      <span>Caixas Surpresas</span>
+      <small>ganhadores</small>
+    </div>
+    <div class="cs-badge">4/15</div>
+  </div>
+
+  <div class="cs-list" id="csList">
+    <!-- 5 VISÍVEIS -->
+    <div class="cs-row winner">
+      <span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span>
+      <div class="cs-right">Josefa 🏆</div>
+    </div>
+
+    <div class="cs-row">
+      <span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span>
+      <div class="cs-right cs-status">Disponível</div>
+    </div>
+
+    <div class="cs-row">
+      <span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span>
+      <div class="cs-right cs-status">Disponível</div>
+    </div>
+
+    <div class="cs-row">
+      <span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span>
+      <div class="cs-right cs-status">Disponível</div>
+    </div>
+
+    <div class="cs-row winner">
+      <span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span>
+      <div class="cs-right">Felipe 🏆</div>
+    </div>
+
+    <!-- 10 ESCONDIDAS -->
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row winner is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span><div class="cs-right">Ricardo 🏆</div></div>
+    <div class="cs-row winner is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Poco c71</span><div class="cs-right">Luciano 🏆</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+    <div class="cs-row is-hidden"><span class="cs-pill"><span class="cs-phone">📱</span>Note 60</span><div class="cs-right cs-status">Disponível</div></div>
+  </div>
+
+  <!-- BOTÃO (não depende de event listener) -->
+  <button type="button" class="cs-more-btn" id="csMoreBtn" onclick="csShowMore()">
+    ˅ Mostrar Mais
+  </button>
+</div>
+
+<!-- TÍTULOS PREMIADOS -->
+<!-- TÍTULOS PREMIADOS -->
+<div style="
+    background:#1f2832;
+    border-radius:12px;
+    padding:12px;
+    margin:12px 10px;
+">
+
+    <!-- Cabeçalho -->
+    <div style="
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        margin-bottom:10px;
+    ">
+        <div style="color:#ffffff; font-weight:700; font-size:16px;">
+            🏆 Títulos Premiados
+        </div>
+
+        <div style="
+            color:#ff3b3b;
+            border:1px solid #ff3b3b;
+            border-radius:6px;
+            padding:2px 6px;
+            font-size:12px;
+            font-weight:700;
+        ">
+            0/5
+        </div>
+    </div>
+
+    <!-- LISTA -->
+    <div style="display:flex; flex-direction:column; gap:8px;">
+
+        <!-- ITEM -->
+        <div style="
+            background:#0f1720;
+            border-radius:8px;
+            padding:8px 10px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            color:#cbd5e1;
+            font-size:13px;
+        ">
+            <span style="
+                background:#64748b;
+                color:#fff;
+                padding:2px 8px;
+                border-radius:6px;
+                font-weight:600;
+                font-size:12px;
+            ">2451975</span>
+
+            <span>FAN 0KM</span>
+
+            <span style="color:#ffffff;">Disponível</span>
+        </div>
+
+        <!-- ITEM -->
+        <div style="
+            background:#0f1720;
+            border-radius:8px;
+            padding:8px 10px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            color:#cbd5e1;
+            font-size:13px;
+        ">
+            <span style="background:#64748b;color:#fff;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12px;">
+                1091324
+            </span>
+
+            <span>FAN 0KM</span>
+
+            <span style="color:#ffffff;">Disponível</span>
+        </div>
+
+        <!-- ITEM -->
+        <div style="
+            background:#0f1720;
+            border-radius:8px;
+            padding:8px 10px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            color:#cbd5e1;
+            font-size:13px;
+        ">
+            <span style="background:#64748b;color:#fff;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12px;">
+                0036853
+            </span>
+
+            <span>R$1.000</span>
+
+            <span style="color:#ffffff;">Disponível</span>
+        </div>
+
+        <!-- ITEM -->
+        <div style="
+            background:#0f1720;
+            border-radius:8px;
+            padding:8px 10px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            color:#cbd5e1;
+            font-size:13px;
+        ">
+            <span style="background:#64748b;color:#fff;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12px;">
+                6201006
+            </span>
+
+            <span>R$1.000</span>
+
+            <span style="color:#ffffff;">Disponível</span>
+        </div>
+
+        <!-- ITEM -->
+        <div style="
+            background:#0f1720;
+            border-radius:8px;
+            padding:8px 10px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            color:#cbd5e1;
+            font-size:13px;
+        ">
+            <span style="background:#64748b;color:#fff;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12px;">
+                1530410
+            </span>
+
+            <span>R$1.000</span>
+
+            <span style="color:#ffffff;">Disponível</span>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<script>
+  // Função GLOBAL (não quebra com outros scripts)
+  window.csShowMore = function(){
+    var box = document.getElementById('csBox');
+    if(!box) return;
+
+    var hidden = box.querySelectorAll('.cs-row.is-hidden');
+    for (var i = 0; i < hidden.length; i++){
+      hidden[i].classList.remove('is-hidden');
+    }
+
+    var btn = document.getElementById('csMoreBtn');
+    if(btn) btn.style.display = 'none';
+  };
+</script>
+
+
+                    </div>
+            <div class="socials-icons">
+    <span>
+                
+                
+                
+            </span>
+    
+    </div>
+
+    </div></section></div>
+
+    <script src="../public/js/pages/single.js"></script>
+    <script>
+    setTimeout(function() {
+        var errorMessage = document.getElementById('error-message');
+        if (errorMessage) {
+            errorMessage.style.display = 'none'; 
+        }
+    }, 3000);
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  const prizeOpenButton = document.getElementById('prize-open');
+  const modalPrizes = document.getElementById('modal-prizes');
+  const closeModalIcon = document.querySelector('#modal-prizes .bi-x-lg');
+
+  if (prizeOpenButton && modalPrizes) {
+    prizeOpenButton.addEventListener('click', () => modalPrizes.style.display = 'flex');
+  }
+  if (closeModalIcon && modalPrizes) {
+    closeModalIcon.addEventListener('click', () => modalPrizes.style.display = 'none');
+  }
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const totalNumbersAvailable = 490780;
+
+  const inputQuantity = document.querySelector('.input-quantity');
+  const priceValueEl = document.querySelector('.price-value'); // unitário (ex: 0,03)
+  const priceParticipateEl = document.querySelector('.price-participate');
+  const maxInput = document.querySelector('.max-value');
+  const maxValue = maxInput ? parseInt(maxInput.value, 10) : 30000;
+
+  // Todos os botões de seleção (+100, +350, etc.)
+  const selectCards = document.querySelectorAll('.content-select .select');
+
+  function toNumberBR(text) {
+    return parseFloat(String(text).trim().replace(/\./g, '').replace(',', '.')) || 0;
+  }
+
+  function formatBR(value) {
+    return (Math.round(value * 100) / 100).toFixed(2).replace('.', ',');
+  }
+
+  function clamp(q) {
+    let n = parseInt(q, 10);
+    if (isNaN(n)) n = 1;
+    if (n < 1) n = 1;
+    if (n > maxValue) n = maxValue;
+    if (n > totalNumbersAvailable) n = totalNumbersAvailable;
+    return n;
+  }
+
+  function recalc() {
+    if (!inputQuantity || !priceValueEl || !priceParticipateEl) return;
+
+    const qty = clamp(inputQuantity.value);
+    inputQuantity.value = qty;
+
+    const unit = toNumberBR(priceValueEl.innerText); // "0,03" -> 0.03
+    const total = qty * unit;
+
+    priceParticipateEl.innerText = formatBR(total);
+  }
+
+  // Faz os cards clicáveis
+  selectCards.forEach(function(card){
+    // garante que não tá bloqueado por CSS
+    card.style.cursor = 'pointer';
+    card.style.pointerEvents = 'auto';
+
+    card.addEventListener('click', function () {
+      // pega o número dentro do <h3> (100 / 350 / 500...)
+      const h3 = card.querySelector('h3');
+      if (!h3) return;
+
+      const value = clamp(h3.innerText);
+      inputQuantity.value = value;
+      recalc();
+
+      // opcional: marcar selecionado
+      selectCards.forEach(c => c.classList.remove('is-active'));
+      card.classList.add('is-active');
+    });
+  });
+
+  // Se o usuário digitar manualmente
+  if (inputQuantity) {
+    inputQuantity.addEventListener('input', recalc);
+    inputQuantity.addEventListener('change', recalc);
+  }
+
+  recalc();
+});
+</script>
+
+
+ <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const totalNumbersAvailable = 490780;
+
+  const inputQuantity = document.querySelector('.input-quantity');
+  const btnMinus = document.querySelector('.js-qty-minus');
+  const btnPlus  = document.querySelector('.js-qty-plus');
+
+  const priceValueEl = document.querySelector('.price-value');
+  const priceParticipateEl = document.querySelector('.price-participate');
+
+  const maxInput = document.querySelector('.max-value');
+  const maxValue = maxInput ? parseInt(maxInput.value, 10) : 30000;
+
+  function toNumberBR(text) {
+    return parseFloat(String(text).trim().replace(/\./g, '').replace(',', '.')) || 0;
+  }
+
+  function formatBR(value) {
+    return (Math.round(value * 100) / 100).toFixed(2).replace('.', ',');
+  }
+
+  function clamp(q) {
+    let n = parseInt(q, 10);
+    if (isNaN(n)) n = 1;
+    if (n < 1) n = 1;
+    if (n > maxValue) n = maxValue;
+    if (n > totalNumbersAvailable) n = totalNumbersAvailable;
+    return n;
+  }
+
+  function recalc() {
+    if (!inputQuantity || !priceValueEl || !priceParticipateEl) return;
+
+    const qty = clamp(inputQuantity.value);
+    inputQuantity.value = qty;
+
+    const unit = toNumberBR(priceValueEl.innerText); // "0,03" -> 0.03
+    const total = qty * unit;
+
+    priceParticipateEl.innerText = formatBR(total);
+  }
+
+  if (btnMinus) {
+    btnMinus.addEventListener('click', function () {
+      inputQuantity.value = clamp(clamp(inputQuantity.value) - 1);
+      recalc();
+    });
+  }
+
+  if (btnPlus) {
+    btnPlus.addEventListener('click', function () {
+      inputQuantity.value = clamp(clamp(inputQuantity.value) + 1);
+      recalc();
+    });
+  }
+
+  if (inputQuantity) {
+    inputQuantity.addEventListener('input', recalc);
+    inputQuantity.addEventListener('change', recalc);
+  }
+
+  recalc();
+});
+</script>
+
+
+<style>
+  body.modal-travado{ overflow:hidden !important; }
+
+  /* ===== Modal base ===== */
+  .ck-overlay{
+    display:none;
+    position:fixed;
+    inset:0;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,.75);
+    z-index:2147483647;
+  }
+  .ck-overlay.is-open{ display:block; }
+
+  .ck-card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:min(720px, 92vw);
+    background:#1a2330;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    box-shadow:0 18px 60px rgba(0,0,0,.75);
+    overflow:hidden;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+    color:#e5e7eb;
+  }
+
+  .ck-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 16px;
+    background:#1f2a38;
+    border-bottom:1px solid rgba(255,255,255,.07);
+    font-weight:900;
+  }
+  .ck-header .left{ display:flex; align-items:center; gap:10px; }
+  .ck-close{
+    background:transparent;
+    border:none;
+    color:rgba(255,255,255,.65);
+    font-size:22px;
+    cursor:pointer;
+    line-height:1;
+  }
+  .ck-body{ padding:14px 16px 16px; }
+
+  /* ===== Alerts ===== */
+  .ck-alert{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border-radius:10px;
+    padding:12px;
+    font-size:13px;
+    line-height:1.35;
+    border:1px solid rgba(255,255,255,.10);
+    margin-bottom:12px;
+  }
+  .ck-alert.blue{ background:#133b78; color:#e6f0ff; }
+  .ck-alert.yellow{ background:#7b5a00; color:#fff; }
+  .ck-alert.green{ background:#0f6a3b; color:#fff; }
+  .ck-alert .i{
+    width:18px;height:18px;border-radius:999px;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(255,255,255,.18);
+    font-weight:900;font-size:12px; flex:0 0 auto;
+  }
+
+  /* ===== Fields ===== */
+  .ck-label{
+    color:rgba(255,255,255,.70);
+    font-size:12px;
+    margin:10px 0 6px;
+  }
+  .ck-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#0f1722;
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:10px;
+    padding:10px 12px;
+    margin-bottom:10px;
+  }
+
+  /* “Brasil” com imagem OU emoji */
+  .ck-country{
+    display:flex; align-items:center; gap:8px;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.10);
+    padding:8px 10px;
+    border-radius:8px;
+    font-weight:900;
+    color:#fff;
+    white-space:nowrap;
+    flex:0 0 auto;
+  }
+  .ck-flag-img{
+    width:18px;height:18px;border-radius:999px; object-fit:cover;
+    display:none; /* liga quando você colocar src válido */
+  }
+  .ck-input{
+    width:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:#fff;
+    font-size:14px;
+  }
+  .ck-input::placeholder{ color:rgba(255,255,255,.35); }
+
+  /* ===== Terms ===== */
+  .ck-terms{
+    font-size:11px;
+    color:rgba(255,255,255,.55);
+    line-height:1.35;
+    margin:10px 0 12px;
+  }
+  .ck-terms a{ color:#ff4a4a; text-decoration:none; font-weight:900; }
+  .ck-terms a:hover{ text-decoration:underline; }
+
+  /* ===== Buttons ===== */
+  .ck-btn{
+    width:100%;
+    border:none;
+    cursor:pointer;
+    background:#ff3b3b;
+    color:#fff;
+    font-weight:900;
+    padding:14px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+  }
+  .ck-btn .arrow{
+    width:22px;height:22px;border-radius:999px;
+    background:rgba(255,255,255,.18);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:900;
+  }
+
+  .ck-link{
+    display:block;
+    text-align:center;
+    margin-top:10px;
+    color:#ff4a4a;
+    font-weight:900;
+    text-decoration:none;
+    font-size:13px;
+  }
+
+  /* ===== Loading screen ===== */
+  .ck-loading-wrap{
+    width:min(720px, 92vw);
+    margin: 0 auto;
+    padding: 90px 0 0;
+  }
+  .ck-loading-box{
+    background:#1f2a38;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    padding:24px 18px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    justify-content:center;
+  }
+  .ck-dots{
+    display:flex; gap:8px; align-items:center;
+  }
+  .ck-dots span{
+    width:8px;height:8px;border-radius:999px;
+    background:#ff3b3b;
+    opacity:.25;
+    animation: dot 1s infinite;
+  }
+  .ck-dots span:nth-child(2){ animation-delay:.15s; }
+  .ck-dots span:nth-child(3){ animation-delay:.30s; }
+  @keyframes dot{
+    0%,100%{ opacity:.25; transform:translateY(0); }
+    50%{ opacity:1; transform:translateY(-4px); }
+  }
+
+  /* ===== PIX Screen ===== */
+  .pix-card{
+    width:min(720px, 92vw);
+    margin: 20px auto 60px;
+    background:#1a2330;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 18px 60px rgba(0,0,0,.45);
+  }
+  .pix-header{
+    padding:16px;
+    background:#1f2a38;
+    border-bottom:1px solid rgba(255,255,255,.07);
+    display:flex; align-items:center; gap:10px;
+    color:#fff; font-weight:900;
+  }
+  .pix-body{ padding:16px; color:#e5e7eb; }
+  .pix-steps{
+    margin-top:12px;
+    border-top:1px solid rgba(255,255,255,.08);
+    padding-top:12px;
+  }
+  .pix-step{
+    display:flex; gap:10px; align-items:flex-start;
+    margin:10px 0;
+  }
+  .pix-step .n{
+    width:22px;height:22px;border-radius:999px;
+    background:#ff3b3b; color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:900; flex:0 0 auto;
+    font-size:12px;
+  }
+
+  .pix-code-row{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    background:#0f1722;
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:10px;
+    padding:10px;
+    margin:12px 0;
+  }
+  .pix-code{
+    flex:1;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    font-size:12px;
+    color:#cbd5e1;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .pix-copy{
+    border:none; cursor:pointer;
+    background:#ff3b3b; color:#fff;
+    font-weight:900;
+    padding:10px 12px;
+    border-radius:10px;
+  }
+
+  .pix-qr-wrap{ text-align:center; margin-top:12px; display:none; }
+  .pix-qr-wrap img{
+    width:280px; max-width:80vw;
+    background:#fff;
+    padding:12px;
+    border-radius:10px;
+  }
+
+  .pix-toggle{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+  }
+  .pix-toggle button{
+    border:none;
+    cursor:pointer;
+    background:#2a3442;
+    color:#fff;
+    font-weight:900;
+    padding:10px 14px;
+    border-radius:10px;
+  }
+
+  .pix-warn{
+    margin-top:12px;
+    background:#7b5a00;
+    border:1px solid rgba(255,255,255,.10);
+    color:#fff;
+    border-radius:10px;
+    padding:12px;
+    font-size:12px;
+    line-height:1.35;
+  }
+
+
+
+
+</style>
+
+
+<style>
+  /* trava scroll quando modal/overlay abre */
+  body.modal-travado{ overflow:hidden !important; }
+
+  /* some o site quando estiver no PIX/Loading */
+  #pageHome.is-hidden{
+  pointer-events: none !important;
+  user-select: none !important;
+}
+  /* PIX e LOADING sempre acima de tudo */
+  #ckPix, #ckLoading{
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 2147483647 !important;
+    background: rgba(0,0,0,.75) !important;
+  }
+
+  /* estado inicial controlado no JS */
+  ckPix, #ckLoading{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+
+#ckPix.is-open,
+#ckLoading.is-open{
+  opacity: 1;
+  pointer-events: auto;
+}
+</style>
+
+
+
+<!-- ===== MODAL 1: TELEFONE ===== -->
+<div id="ckStep1" class="ck-overlay" aria-hidden="true">
+  <div class="ck-card" role="dialog" aria-modal="true" aria-label="Checkout">
+    <div class="ck-header">
+      <div class="left">
+        <span class="ck-ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2"></path>
+          </svg>
+        </span>
+        <span class="ck-title">Checkout</span>
+      </div>
+      <button class="ck-close" data-ck-close="" type="button" aria-label="Fechar">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+
+    <div class="ck-body">
+      <div class="ck-alert blue">
+        <div class="i">i</div>
+        <div>Você está adquirindo <b id="ckQty">100</b> unidade(s) do produto <b id="ckProduct">ROLETAS PREMIADAS</b></div>
+      </div>
+
+     <div class="ck-label">Informe seu telefone *</div>
+<div class="ck-row ck-phone-row">
+  <div class="ck-country">
+    <img class="ck-flag" src="https://flagcdn.com/w20/br.png" alt="BR">
+    <span class="ck-caret">⌄</span>
+  </div>
+  <input
+  id="ckPhone"
+  class="ck-input ck-phone-input"
+  type="tel"
+  inputmode="numeric"
+  maxlength="15"
+  placeholder="(DDD) 9XXXX-XXXX"
+  autocomplete="tel"
+  oninput="
+    let d=this.value.replace(/\D/g,'').slice(0,11);
+
+    if(d.length===0) this.value='';
+    else if(d.length<=2) this.value='('+d;
+    else if(d.length<=7) this.value='('+d.slice(0,2)+') '+d.slice(2);
+    else if(d.length<=10) this.value='('+d.slice(0,2)+') '+d.slice(2,6)+'-'+d.slice(6);
+    else this.value='('+d.slice(0,2)+') '+d.slice(2,7)+'-'+d.slice(7);
+  "
+>
+
+</div>
+
+      <div class="ck-alert yellow">
+        <div>⚠️</div><div>Informe seus dados para continuar</div>
+      </div>
+
+      <div class="ck-terms">
+        Ao efetuar este pagamento e confirmar a compra deste título, declaro que li e concordo com os
+        <a href="#" target="_blank" rel="noopener">termos de uso</a> e
+        <a href="#" target="_blank" rel="noopener">política de privacidade</a>.
+      </div>
+
+      <button class="ck-btn" id="ckGoStep2" type="button">Concluir Reserva </button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ===== MODAL 2: CONFIRMAR + NOME ===== -->
+<div id="ckStep2" class="ck-overlay" aria-hidden="true">
+  <div class="ck-card" role="dialog" aria-modal="true" aria-label="Confirmar dados">
+    <div class="ck-header">
+      <div class="left">
+        <span class="ck-ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2"></path>
+          </svg>
+        </span>
+        <span class="ck-title">Checkout</span>
+      </div>
+      <button class="ck-close" data-ck-close="" type="button" aria-label="Fechar">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+
+    <div class="ck-body">
+      <div class="ck-alert blue">
+        <div class="i">i</div>
+        <div>Você está adquirindo <b id="ckQty2">100</b> unidade(s) do produto <b id="ckProduct2">ROLETAS PREMIADAS</b></div>
+      </div>
+
+      <div class="ck-label">Informe seu telefone *</div>
+<div class="ck-row ck-phone-row">
+  <div class="ck-country">
+    <img class="ck-flag" src="https://flagcdn.com/w20/br.png" alt="BR">
+    <span class="ck-caret">⌄</span>
+  </div>
+  <input
+  id="ckPhone2"
+  class="ck-input ck-phone-input"
+  type="tel"
+  inputmode="numeric"
+  maxlength="15"
+  placeholder="(DDD) 9XXXX-XXXX"
+  autocomplete="tel"
+  oninput="
+    let d=this.value.replace(/\D/g,'').slice(0,11);
+
+    if(d.length===0) this.value='';
+    else if(d.length<=2) this.value='('+d;
+    else if(d.length<=7) this.value='('+d.slice(0,2)+') '+d.slice(2);
+    else if(d.length<=10) this.value='('+d.slice(0,2)+') '+d.slice(2,6)+'-'+d.slice(6);
+    else this.value='('+d.slice(0,2)+') '+d.slice(2,7)+'-'+d.slice(7);
+  "
+>
+
+</div>
+
+<div class="ck-label">Confirme o telefone *</div>
+<div class="ck-row ck-phone-row">
+  <div class="ck-country">
+    <img class="ck-flag" src="https://flagcdn.com/w20/br.png" alt="BR">
+    <span class="ck-caret">⌄</span>
+  </div>
+
+  <input
+    id="ckPhoneConfirm"
+    class="ck-input ck-phone-input"
+    type="tel"
+    inputmode="numeric"
+    maxlength="15"
+    placeholder="Repita o telefone"
+    autocomplete="tel"
+    oninput="
+      let d=this.value.replace(/\D/g,'').slice(0,11);
+
+      if(d.length===0) this.value='';
+      else if(d.length<=2) this.value='('+d;
+      else if(d.length<=7) this.value='('+d.slice(0,2)+') '+d.slice(2);
+      else if(d.length<=10) this.value='('+d.slice(0,2)+') '+d.slice(2,6)+'-'+d.slice(6);
+      else this.value='('+d.slice(0,2)+') '+d.slice(2,7)+'-'+d.slice(7);
+    "
+  >
+</div>
+
+
+
+      <div class="ck-label">Nome Completo *</div>
+      <div class="ck-row">
+        <input id="ckName" class="ck-input" type="text" placeholder="Nome Completo" autocomplete="name">
+      </div>
+
+      <div class="ck-alert yellow">
+        <div>⚠️</div><div>Informe seus dados para continuar</div>
+      </div>
+
+      <button class="ck-btn" id="ckGoStep3" type="button">Concluir Reserva </button>
+      <a href="#" class="ck-link" id="ckBackTo1">Cancelar cadastro</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== MODAL 3: CONTA/RESUMO (IGUAL 4ª FOTO) ===== -->
+<div id="ckStep3" class="ck-overlay" aria-hidden="true">
+  <div class="ck-card" role="dialog" aria-modal="true" aria-label="Confirmado">
+    <div class="ck-header">
+      <div class="left"><span>🛒</span><span>Checkout</span></div>
+      <button class="ck-close" data-ck-close="">×</button>
+    </div>
+    <div class="ck-body">
+      <div class="ck-alert green">
+        <div class="i">✓</div>
+        <div>Você está adquirindo <b id="ckQty3">100</b> unidade(s) do produto <b id="ckProduct3">ROLETAS PREMIADAS</b></div>
+      </div>
+
+      <div style="display:flex;gap:14px;align-items:center;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:#1f2a38;">
+        <div style="width:46px;height:46px;border-radius:10px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-weight:900;">👤</div>
+        <div style="min-width:0">
+          <div id="ckNameShow" style="font-weight:900;color:#fff;">11</div>
+          <div id="ckPhoneShow" style="color:rgba(255,255,255,.7);font-size:13px;">11</div>
+        </div>
+      </div>
+
+      <div class="ck-terms" style="margin-top:12px;">
+        Ao efetuar este pagamento e confirmar a compra deste título, declaro que li e concordo com os
+        <a href="#" target="_blank" rel="noopener">termos de uso</a> e
+        <a href="#" target="_blank" rel="noopener">política de privacidade</a>.
+      </div>
+
+      <button class="ck-btn" id="ckCreatePayment">Concluir Reserva </button>
+      <a href="#" class="ck-link" id="ckChangeAccount">Alterar conta</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TELA 4: LOADING (IGUAL 5ª FOTO) ===== -->
+<div id="ckLoading" style="display:none;">
+  <div class="ck-loading-wrap">
+    <div class="ck-loading-box">
+      <div class="ck-dots"><span></span><span></span><span></span></div>
+      <div>
+        <div style="font-weight:900;font-size:16px;">Carregando a sua compra</div>
+        <div style="opacity:.8;font-size:13px;">Por favor, aguarde...</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:18px;color:#e5e7eb;">
+      Problemas com sua compra? <a href="#" style="color:#ff4a4a;font-weight:900;text-decoration:none;">Clique aqui</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TELA 5: PIX (IGUAL 6/7) ===== -->
+<div id="ckPix" style="display:none;">
+  <div class="pix-card">
+    <div class="pix-header">⏳ Aguardando pagamento!</div>
+    <div class="pix-body">
+      <div style="opacity:.9;font-size:13px;">Realize o pagamento</div>
+
+      <div style="margin:10px 0 14px;opacity:.85;text-align:center;">
+        Você tem <b id="pixTimer">09:05</b> para pagar
+      </div>
+
+      <div class="pix-steps">
+        <div class="pix-step">
+          <div class="n">1</div>
+          <div>Copie o código PIX abaixo.</div>
+        </div>
+
+        <div class="pix-code-row">
+          <div id="pixCopyPaste" class="pix-code">—</div>
+          <button class="pix-copy" id="pixCopyBtn">COPIAR</button>
+        </div>
+
+        <div class="pix-step">
+          <div class="n">2</div>
+          <div>Abra o app do seu banco e escolha a opção PIX, como se fosse fazer uma transferência.</div>
+        </div>
+
+        <div class="pix-step">
+          <div class="n">3</div>
+          <div>Selecione a opção PIX copia e cola, cole a chave copiada e confirme o pagamento.</div>
+        </div>
+
+        <div class="pix-toggle">
+          <button id="pixToggleBtn">Mostrar QR Code</button>
+        </div>
+
+        <div class="pix-qr-wrap" id="pixQrWrap">
+          <div style="margin:10px 0 8px;font-weight:900;color:#fff;">QR Code</div>
+          <img id="pixQrImg" alt="QR Code">
+          <div style="margin-top:10px;font-size:12px;opacity:.85;">
+            Acesse o app do seu banco, escolha a opção de pagar com QR Code, escaneie o código acima e confirme o pagamento.
+          </div>
+        </div>
+
+        <div class="pix-warn">
+          ⚠️ Este pagamento só pode ser realizado dentro do tempo. Após este período, caso o pagamento não seja confirmado, os títulos voltam a ficar disponíveis.
+        </div>
+
+        <div style="margin-top:14px;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:#1f2a38;">
+          <div style="font-weight:900;color:#fff;" id="pixProductCard">ROLETAS PREMIADAS</div>
+          <div style="opacity:.85;font-size:12px;">Participe e concorra!</div>
+          <div style="margin-top:8px;font-size:13px;">
+            <div><b>Comprador:</b> <span id="pixBuyer">—</span></div>
+            <div><b>Telefone:</b> <span id="pixPhone">—</span></div>
+            <div><b>Quantidade:</b> <span id="pixQty">—</span></div>
+            <div><b>Total:</b> R$ <span id="pixTotal">—</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:18px;">
+        Problemas com sua compra? <a href="#" style="color:#ff4a4a;font-weight:900;text-decoration:none;">Clique aqui</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  // ====== CONFIG / PREÇO ======
+  function toNumberBR(text){
+    return parseFloat(String(text || '0').trim().replace(/\./g,'').replace(',','.')) || 0;
+  }
+
+  const UNIT_PRICE = (() => {
+    const pv = document.querySelector('.price-value');
+    return toNumberBR(pv?.innerText || '0');
+  })();
+
+  // ====== ELEMENTOS ======
+  const pageHome = document.getElementById('pageHome');
+
+  const step1 = document.getElementById('ckStep1');
+  const step2 = document.getElementById('ckStep2');
+  const step3 = document.getElementById('ckStep3');
+
+  const loading = document.getElementById('ckLoading');
+  const pix = document.getElementById('ckPix');
+
+  const qtyInput = document.querySelector('.input-quantity');
+  const titlePage = document.querySelector('.background-gradient h3');
+
+  // Step1
+  const ckQty = document.getElementById('ckQty');
+  const ckProduct = document.getElementById('ckProduct');
+  const ckPhone = document.getElementById('ckPhone');
+
+  // Step2
+  const ckQty2 = document.getElementById('ckQty2');
+  const ckProduct2 = document.getElementById('ckProduct2');
+  const ckPhone2 = document.getElementById('ckPhone2');
+  const ckPhoneConfirm = document.getElementById('ckPhoneConfirm');
+  const ckName = document.getElementById('ckName');
+
+  // Step3
+  const ckQty3 = document.getElementById('ckQty3');
+  const ckProduct3 = document.getElementById('ckProduct3');
+  const ckNameShow = document.getElementById('ckNameShow');
+  const ckPhoneShow = document.getElementById('ckPhoneShow');
+
+  // Pix
+  const pixCopyPaste = document.getElementById('pixCopyPaste');
+  const pixCopyBtn = document.getElementById('pixCopyBtn');
+  const pixToggleBtn = document.getElementById('pixToggleBtn');
+  const pixQrWrap = document.getElementById('pixQrWrap');
+  const pixQrImg = document.getElementById('pixQrImg');
+
+  const pixBuyer = document.getElementById('pixBuyer');
+  const pixPhone = document.getElementById('pixPhone');
+  const pixQty = document.getElementById('pixQty');
+  const pixTotal = document.getElementById('pixTotal');
+  const pixProductCard = document.getElementById('pixProductCard');
+  const pixTimerEl = document.getElementById('pixTimer');
+
+  // ====== HELPERS ======
+  function openOverlay(el){
+    if(!el) return;
+    el.classList.add('is-open');
+    el.setAttribute('aria-hidden','false');
+    document.body.classList.add('modal-travado');
+  }
+  function closeOverlay(el){
+    if(!el) return;
+    el.classList.remove('is-open');
+    el.setAttribute('aria-hidden','true');
+    document.body.classList.remove('modal-travado');
+  }
+  function closeAllOverlays(){
+    [step1,step2,step3].forEach(closeOverlay);
+  }
+
+  function showLoading(){
+    if(loading){
+      loading.classList.add('is-open');
+      loading.style.display = 'block';
+    }
+    if(pix){
+      pix.classList.remove('is-open');
+      pix.style.display = 'none';
+    }
+    if(pageHome) pageHome.classList.add('is-hidden');
+  }
+
+  function showPix(){
+    if(loading){
+      loading.classList.remove('is-open');
+      loading.style.display = 'none';
+    }
+    if(pix){
+      pix.classList.add('is-open');
+      pix.style.display = 'block';
+    }
+    if(pageHome) pageHome.classList.add('is-hidden');
+  }
+
+  function hideAllFullScreens(){
+    if(loading){
+      loading.classList.remove('is-open');
+      loading.style.display = 'none';
+    }
+    if(pix){
+      pix.classList.remove('is-open');
+      pix.style.display = 'none';
+    }
+    if(pageHome) pageHome.classList.remove('is-hidden');
+  }
+
+  function getQty(){
+    const q = parseInt(qtyInput?.value || '0', 10);
+    return isNaN(q) ? 0 : q;
+  }
+  function getProductName(){
+    return (titlePage?.innerText || '').trim() || 'ROLETAS PREMIADAS';
+  }
+  function moneyBR(n){
+    return (Math.round(n*100)/100).toFixed(2).replace('.',',');
+  }
+  function normalizePhone(s){
+    return String(s || '').trim();
+  }
+
+  // ====== OPEN FROM BUTTON "Quero Participar" ======
+  document.querySelectorAll('.btn-add-to-cart').forEach(btn=>{
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      const qty = getQty();
+      const product = getProductName();
+      if(ckQty) ckQty.textContent = qty;
+      if(ckProduct) ckProduct.textContent = product;
+      openOverlay(step1);
+    });
+  });
+
+  // ====== CLOSE BUTTONS ======
+  document.querySelectorAll('[data-ck-close]').forEach(btn=>{
+    btn.addEventListener('click', function(){
+      closeAllOverlays();
+    });
+  });
+
+  [step1,step2,step3].forEach(overlay=>{
+    if(!overlay) return;
+    overlay.addEventListener('click', function(e){
+      if(e.target === overlay) closeAllOverlays();
+    });
+  });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeAllOverlays();
+  });
+
+  // ====== STEP1 -> STEP2 ======
+  const go2 = document.getElementById('ckGoStep2');
+  if(go2){
+    go2.addEventListener('click', function(){
+      const phone = normalizePhone(ckPhone?.value);
+      if(!phone){
+        alert('Digite seu telefone.');
+        ckPhone?.focus();
+        return;
+      }
+
+      if(ckQty2) ckQty2.textContent = getQty();
+      if(ckProduct2) ckProduct2.textContent = getProductName();
+      if(ckPhone2) ckPhone2.value = phone;
+      if(ckPhoneConfirm) ckPhoneConfirm.value = '';
+      if(ckName) ckName.value = '';
+
+      closeOverlay(step1);
+      openOverlay(step2);
+    });
+  }
+
+  // Back to step1
+  const back1 = document.getElementById('ckBackTo1');
+  if(back1){
+    back1.addEventListener('click', function(e){
+      e.preventDefault();
+      closeOverlay(step2);
+      openOverlay(step1);
+    });
+  }
+
+  // ====== STEP2 -> STEP3 ======
+  const go3 = document.getElementById('ckGoStep3');
+  if(go3){
+    go3.addEventListener('click', function(){
+      const p1 = normalizePhone(ckPhone2?.value);
+      const p2 = normalizePhone(ckPhoneConfirm?.value);
+      const name = String(ckName?.value || '').trim();
+
+      if(!p1){ alert('Digite seu telefone.'); ckPhone2?.focus(); return; }
+      if(!p2){ alert('Confirme seu telefone.'); ckPhoneConfirm?.focus(); return; }
+      if(p1 !== p2){ alert('Os telefones não conferem.'); ckPhoneConfirm?.focus(); return; }
+      if(!name){ alert('Digite seu nome completo.'); ckName?.focus(); return; }
+
+      if(ckQty3) ckQty3.textContent = getQty();
+      if(ckProduct3) ckProduct3.textContent = getProductName();
+      if(ckNameShow) ckNameShow.textContent = name;
+      if(ckPhoneShow) ckPhoneShow.textContent = p1;
+
+      closeOverlay(step2);
+      openOverlay(step3);
+    });
+  }
+
+  // Change account back to step2
+  const changeAcc = document.getElementById('ckChangeAccount');
+  if(changeAcc){
+    changeAcc.addEventListener('click', function(e){
+      e.preventDefault();
+      closeOverlay(step3);
+      openOverlay(step2);
+    });
+  }
+
+  // ====== API PIX (PLUGA AQUI) ======
+  async function createPixPayment(payload){
+    // >>> SUBSTITUA POR SUA API REAL <<<
+    // return fetch(...)
+
+    // MOCK (só pra testar fluxo)
+    await new Promise(r => setTimeout(r, 800));
+    return {
+      copyPaste: "00020101021226710014br.gov.bcb.pix...SEU_COPIA_E_COLA_AQUI",
+      qrImageBase64: "", // opcional
+      expiresInSeconds: 545
+    };
+  }
+
+  // ====== TIMER PIX ======
+  let pixTimerInterval = null;
+  function startPixTimer(seconds){
+    if(!pixTimerEl) return;
+    if(pixTimerInterval) clearInterval(pixTimerInterval);
+
+    let remain = Math.max(0, parseInt(seconds || 0, 10));
+
+    function tick(){
+      const mm = String(Math.floor(remain / 60)).padStart(2,'0');
+      const ss = String(remain % 60).padStart(2,'0');
+      pixTimerEl.textContent = `${mm}:${ss}`;
+      remain--;
+      if(remain < 0){
+        clearInterval(pixTimerInterval);
+        pixTimerInterval = null;
+      }
+    }
+
+    tick();
+    pixTimerInterval = setInterval(tick, 1000);
+  }
+
+  // ====== COPY PIX ======
+  async function copyPixText(){
+    const text = (pixCopyPaste?.textContent || '').trim();
+    if(!text || text === '—') return;
+
+    try{
+      await navigator.clipboard.writeText(text);
+      if(pixCopyBtn){
+        const old = pixCopyBtn.textContent;
+        pixCopyBtn.textContent = 'COPIADO ✓';
+        setTimeout(()=> pixCopyBtn.textContent = old, 1200);
+      }
+    }catch(e){
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+  }
+
+  if(pixCopyBtn){
+    pixCopyBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      copyPixText();
+    });
+  }
+
+  // ====== TOGGLE QR ======
+  if(pixToggleBtn && pixQrWrap){
+    pixToggleBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      const isOpen = pixQrWrap.style.display === 'block';
+      pixQrWrap.style.display = isOpen ? 'none' : 'block';
+      pixToggleBtn.textContent = isOpen ? 'Mostrar QR Code' : 'Ocultar QR Code';
+    });
+  }
+
+  // ====== STEP3 -> LOADING -> PIX ======
+  const createPayBtn = document.getElementById('ckCreatePayment');
+  if(createPayBtn){
+    createPayBtn.addEventListener('click', async function(){
+      const qty = getQty();
+      const product = getProductName();
+      const name = (ckNameShow?.textContent || '').trim();
+      const phone = (ckPhoneShow?.textContent || '').trim();
+      const total = qty * UNIT_PRICE;
+
+      closeAllOverlays();
+      showLoading();
+
+      // deixa renderizar antes do fetch
+      await new Promise(requestAnimationFrame);
+
+      try{
+        const identifier = "txn_" + Date.now();
+
+        const data = await createPixPayment({
+          identifier,
+          amount: Number((Math.round(total*100)/100).toFixed(2)),
+          phone,
+          name,
+          qty,
+          product
+        });
+
+        // Preenche PIX
+        if(pixCopyPaste) pixCopyPaste.textContent = data.copyPaste || '—';
+
+        // QR (se vier base64)
+        if(data.qrImageBase64 && pixQrImg){
+          pixQrImg.src = "data:image/png;base64," + data.qrImageBase64;
+          // se quiser já abrir QR:
+          // pixQrWrap.style.display = 'block';
+        } else if(pixQrImg) {
+          pixQrImg.removeAttribute('src');
+        }
+
+        if(pixBuyer) pixBuyer.textContent = name || '—';
+        if(pixPhone) pixPhone.textContent = phone || '—';
+        if(pixQty) pixQty.textContent = String(qty || '—');
+        if(pixTotal) pixTotal.textContent = moneyBR(total);
+        if(pixProductCard) pixProductCard.textContent = product;
+
+        startPixTimer(data.expiresInSeconds || 545);
+
+        showPix();
+      }catch(err){
+        console.error(err);
+        hideAllFullScreens();
+        alert('Erro ao gerar PIX. Tente novamente.');
+      }
+    });
+  }
+});
+</script>
+
+<style>
+/* ===== TELEFONE NOVO (força total) ===== */
+
+#ckStep1 .ck-row,
+#ckStep2 .ck-row{
+  background: transparent !important;
+  border: 1px solid rgba(255,255,255,.15) !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  overflow: hidden !important;
+  height: 48px !important;
+}
+
+#ckStep1 .ck-country,
+#ckStep2 .ck-country{
+  background: transparent !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(255,255,255,.15) !important;
+  border-radius: 0 !important;
+  padding: 0 14px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+#ckStep1 .ck-input,
+#ckStep2 .ck-input{
+  height: 48px !important;
+  padding: 0 14px !important;
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+#ckStep1 .ck-input::placeholder,
+#ckStep2 .ck-input::placeholder{
+  color: rgba(255,255,255,.35) !important;
+}
+
+.ck-flag{
+  width:18px !important;
+  height:18px !important;
+  border-radius:999px !important;
+  object-fit:cover !important;
+}
+
+.ck-caret{
+  color:rgba(255,255,255,.55) !important;
+  font-weight:900 !important;
+  font-size:14px !important;
+}
+</style>
+
+<style>
+/* força visual do campo telefone igual print 2 */
+.ck-row.ck-phone-row{
+  background: transparent !important;
+  border: 1px solid rgba(255,255,255,.15) !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  overflow: hidden !important;
+  height: 48px !important;
+}
+
+.ck-row.ck-phone-row .ck-country{
+  background: transparent !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(255,255,255,.15) !important;
+  border-radius: 0 !important;
+  padding: 0 14px !important;
+  height: 48px !important;
+  display:flex !important;
+  align-items:center !important;
+  gap:10px !important;
+}
+
+.ck-row.ck-phone-row .ck-flag{
+  width:18px !important;
+  height:18px !important;
+  border-radius:999px !important;
+  object-fit:cover !important;
+  display:block !important;
+}
+
+.ck-row.ck-phone-row .ck-caret{
+  color:rgba(255,255,255,.55) !important;
+  font-weight:900 !important;
+  font-size:14px !important;
+}
+
+.ck-row.ck-phone-row .ck-input{
+  height:48px !important;
+  padding:0 14px !important;
+  background:transparent !important;
+  border:0 !important;
+  outline:0 !important;
+  color:#fff !important;
+  font-size:14px !important;
+}
+
+.ck-row.ck-phone-row .ck-input::placeholder{
+  color:rgba(255,255,255,.35) !important;
+}
+</style>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".btn-add-to-cart");
+  if(!btn) return;
+
+  btn.addEventListener("click", () => {
+    if(btn.classList.contains("loading")) return;
+
+    btn.classList.add("loading");
+    btn.innerText = "Conectando ao servidor…";
+
+    setTimeout(() => {
+      btn.classList.remove("loading");
+      btn.innerText = "Quero Participar";
+    }, 3000);
+  });
+});
+</script>
+
+
+
+</body></html></style></body>
+
+</html>

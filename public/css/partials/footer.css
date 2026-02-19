@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container-footer{
+    padding: 20px 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+footer .container-footer p{
+    margin-bottom: 5px;
+}

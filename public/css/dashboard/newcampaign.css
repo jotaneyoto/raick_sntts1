@@ -1,0 +1,959 @@
+.dashboard-new-campaign{
+    background-color: #282828;
+    width: 79%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 30px 0;
+    border: 1px solid #ffffff23; 
+    
+}
+
+.dashboard-new-campaign .new-campaign-container{
+    display: block;
+}
+
+.dashboard-new-campaign .new-campaign-container .nav-bar-new-campaign div{
+    background-color: #1D1D1D;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    border: 1px solid #ffffff23;
+    border-radius: 5px 5px 0 0;
+    flex-wrap: wrap;
+}
+
+.dashboard-new-campaign .new-campaign-container div button{
+    width: 19.5%;
+    background: transparent;
+    border: none;
+    text-align: start;
+    padding: 10px 0 10px 20px;
+    color: #ffffff;
+    font-size: .85em;
+    font-weight: 400;
+    outline: none;
+}
+
+.dashboard-new-campaign .new-campaign-container div button:hover{
+    border-bottom: solid 3px #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container div button i{
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign{
+    width: 100%;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form{
+    display: block;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .btn-new-campaign{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CDBD;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign select{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign .text-editor {
+    border: 1px solid #ffffff23;
+    padding: 10px;
+    min-height: 100px;
+    max-height: 200px;
+    word-wrap: break-word;
+    outline: none;
+    border-radius: 8px;
+    font-size: .9em;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign .text-editor *::selection {
+    background: #b3d4fc; 
+    color: #000; 
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign #boldButton{
+    border: none;
+    border-radius: 5px;
+    background-color: #535353;
+    height: 30px;
+    width: 30px;
+    padding: 0 0 0 8px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign #boldButton i{
+    font-size: 1.2em;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign #colorPicker {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign #colorPicker::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .data-campaign #colorPicker::-webkit-color-swatch {
+    border: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle label span{
+    font-size: .7em;
+    font-weight: 300;
+    color: #1f1f1f;
+    margin-left: 5px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle .label-image-raffle{
+    background-color: #6C757D;
+    color: #fff;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    width: max-content;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle .file-image{
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle-galery .file-image-galery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle-galery .file-image-galery-item { 
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 5px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle-galery label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #1f1f1f;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle-galery label span{
+    font-size: .7em;
+    font-weight: 300;
+    color: #1f1f1f;
+    margin-left: 5px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .images-campaign .image-raffle-galery .label-image-raffle-galery{
+    background-color: #6C757D;
+    color: #fff;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    width: max-content;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .switch {
+    position: relative;
+    display: inline-block;
+    width: 70px; 
+    height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b9b9b9;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input:checked + .slider {
+    background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input:checked + .slider::before {
+    transform: translateX(36px); 
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider .text-on,
+.slider .text-off {
+    position: absolute;
+    font-size: 0.8em; 
+    color: white;
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider .text-on {
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider .text-off {
+    right: 0;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input:checked + .slider .text-on {
+    opacity: 1;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input:checked + .slider .text-off {
+    opacity: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider.round {
+    border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .slider.round::before {
+    border-radius: 50%;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign select{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input[type="text"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .toggles-preference-dc{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .toggles-preference-dc .container-toggle{
+    width: 25%;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .promotion-campaign{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .promotion-campaign label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .promotion-campaign input[type="text"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .promotion-campaign input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .draw_titles{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .draw_titles label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .draw_titles input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section textarea{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section textarea{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section .slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+transition: 0.4s;
+border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section  .slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+border-radius: 50%;
+left: 4px;
+bottom: 4px;
+background-color: white;
+transition: 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section input:checked + .slider {
+background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .box_section input:checked + .slider:before {
+transform: translateX(26px);
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section textarea{
+    width: 100%;
+    border: 1px solid #ffffff23;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 9px;
+    outline: none;
+    background-color: #1D1D1D;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section .slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+transition: 0.4s;
+border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section  .slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+border-radius: 50%;
+left: 4px;
+bottom: 4px;
+background-color: white;
+transition: 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section input:checked + .slider {
+background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section .btn-image-scratch{
+    background-color: #6C757D;
+    color: #fff;
+    font-size: .9em;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    width: max-content;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .scratch_card_section input:checked + .slider:before {
+transform: translateX(26px);
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section .toggle-switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section .toggle-slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+transition: 0.4s;
+border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section  .toggle-slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+border-radius: 50%;
+left: 4px;
+bottom: 4px;
+background-color: white;
+transition: 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section input:checked + .toggle-slider {
+background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .spin_section input:checked + .toggle-slider:before {
+transform: translateX(26px);
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section .switch-toggle {
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section .switch-toggle input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section .slider-toggle {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+transition: 0.4s;
+border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section .slider-toggle:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+border-radius: 50%;
+left: 4px;
+bottom: 4px;
+background-color: white;
+transition: 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section input:checked + .slider-toggle {
+background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .double_chance_section input:checked + .slider-toggle:before {
+transform: translateX(26px);
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section{
+    border: 1px solid #ffffff23;
+    border-radius: 0 0 5px 5px;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    background-color: #1D1D1D;
+    width: 100%;
+    text-align: left;
+    border-top: none;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section label{
+    font-size: .9em;
+    font-weight: 500;
+    color: #ffffffbb;
+    display: block;
+    margin: 5px 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-align: left;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section .custom-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section .custom-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section .custom-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section .custom-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section input:checked + .custom-slider {
+    background-color: #00CDBD;
+}
+
+.dashboard-new-campaign .new-campaign-container .new-campaign form .bigger_smaller_section input:checked + .custom-slider:before {
+    transform: translateX(26px);
+}
+
+@media only screen and (max-width: 789px) {
+    .dashboard-new-campaign{
+        padding: 20px 10px;
+        margin: 20px 0;
+        width: 95%;                
+    }
+
+    .dashboard-new-campaign .new-campaign-container .nav-bar-new-campaign div{
+        background-color: #1D1D1D;
+        color: #ffffff;
+        width: 100%;
+        display: block;
+        border: 1px solid #ffffff23;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .dashboard-new-campaign .new-campaign-container div button{
+        width: 100%;
+        padding: 15px 0 15px 15px;
+    } 
+
+    .dashboard-new-campaign .new-campaign-container .new-campaign form .preference-campaign .toggles-preference-dc{
+        display: block;
+    }
+}

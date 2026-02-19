@@ -1,0 +1,79 @@
+.ranking{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ranking .title-ranking{
+    display: flex;
+    align-items: center;
+}
+
+.ranking .title-ranking h4{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.ranking .title-ranking h4 span{
+    font-size: .7em;
+    font-weight: 400;
+    background-color: #FF9100;
+    color: #fff;
+    border-radius: 30px;
+    padding: 3px 10px;
+}
+
+.ranking .title-ranking p{
+    padding-top: 6px;
+    font-size: .9em;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.ranking .container-ranking{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    text-align: center;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.ranking .container-ranking div{
+    width: 32.5%;
+    padding: 10px 0;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .08);
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.ranking .container-ranking div span{
+    font-size: 1.2em;
+}
+
+.ranking .container-ranking div h3{
+    font-size: .8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ranking .container-ranking div p{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 789px) {
+    .ranking .container-ranking div h3{
+        font-size: .75em;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .ranking .container-ranking div p{
+        font-size: .65em;
+        font-weight: 300;
+    }
+
+    .ranking .container-ranking div{
+    width: 32%;
+}
+}
