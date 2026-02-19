@@ -14,25 +14,32 @@ export default async function handler(req, res) {
   try {
     const { action } = req.body;
 
-    // === 1. CRIAR O PIX ===
-    if (action === 'create' || !action) {
-        const { amount, buyerName } = req.body;
-        
-        // 🔴 CORREÇÃO: O ID PRECISA ESTAR ENTRE ASPAS 🔴
-        const PRODUTO_ID = "b8796vs1h"; 
+  // === 1. CRIAR O PIX ===
+if (action === 'create' || !action) {
+    const { amount, buyerName } = req.body;
+    
+    const bodyCreate = {
+        action: "create",
+        method: "pix", // Adicione o método explicitamente
+        product_id: "b8796vs1h", // O ID que o dono informou
+        amount: parseFloat(amount), // Garante que é número decimal
+        name: buyerName || "Cliente", // Algumas APIs usam 'name' direto no root
+        customer: { 
+            name: buyerName || "Cliente" 
+        },
+        description: "Compra de títulos - Roletas Premiadas" // Útil para o gateway identificar
+    };
 
-        const bodyCreate = {
-            action: "create",
-            product_id: "b8796vs1h", 
-            amount: Number(amount),
-            customer: { name: buyerName || "Cliente" }
-        };
-
-        const response = await fetch("https://app.abacash.com/api/payment.php", {
-            method: "POST",
-            headers: { "Content-Type": "application/json", "Authorization": `Bearer ${SECRET_KEY}` },
-            body: JSON.stringify(bodyCreate)
-        });
+    const response = await fetch("https://app.abacash.com/api/payment.php", {
+        method: "POST",
+        headers: { 
+            "Content-Type": "application/json", 
+            "Authorization": `Bearer ${SECRET_KEY}` 
+        },
+        body: JSON.stringify(bodyCreate)
+    });
+    
+    //
 
         const json = await response.json();
         const data = json.data || {};
@@ -95,5 +102,6 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: "Justino_k1ng", msg: error.message });
   }
 }
+
 
 
